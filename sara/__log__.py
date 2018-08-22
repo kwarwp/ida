@@ -113,3 +113,10 @@ TypeError: 'module' object is not callable
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Aug 22 2018 15:46:55.795 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 3
+  STYLE=["widt"]900
+                 ^
+SyntaxError: invalid syntax
+'''},
