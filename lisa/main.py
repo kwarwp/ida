@@ -23,9 +23,9 @@ def criarcenas():
     pantano.direita = castelo
     castelo.esquerda = pantano
     
-    barbie =Elemento(img= BARBIE, tit="Barbie", style= dict(left=150, top=150, width=60, height=200)
-    tarzan =Elemento(img= TARZAN, tit="Tarzan", style= dict(left=100, top=100, width=70, heigh=200)
-    aranha =Elemento(img= ARANHA, tit="Aranha", style= dict(left=170, top=100, width=60, height=180)
+    barbie =Elemento(img= BARBIE, tit="Barbie", style= dict(left=150, top=150, width=60, height=200))
+    tarzan =Elemento(img= TARZAN, tit="Tarzan", style= dict(left=100, top=100, width=70, heigh=200))
+    aranha =Elemento(img= ARANHA, tit="Aranha", style= dict(left=170, top=100, width=60, height=180))
     
     tarzan.entra =(floresta)
     aranha.entra =(cha)
