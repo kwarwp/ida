@@ -1,6 +1,8 @@
 # ida.angie.main.py
-from _spy.vitollino.main import Cena, Elemento, Texto
-from _spy.vitollino.main import INVENTARIO as inv 
+from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
+from _spy.vitollino.main import INVENTARIO as inv
+STYLE ["width"] = 600
+STYLE ["height"] = "600px"
 ALICE = "https://3.bp.blogspot.com/-o7Y78sYGkjY/V6O1G7WysSI/AAAAAAAAMO8/IG0Q7cJKKcYA70fLNINSaLG02t9fQT52QCLcB/s1600/ALICE%2B%25283%2529.png"
 MESTRE_YODA = "https://vignette.wikia.nocookie.net/disney/images/9/95/Master_Yoda.png/revision/latest?cb=20161024220430&path-prefix=pt-br"
 CINDERELA = "https://4.bp.blogspot.com/-c_4RlOC4vRk/WD8fPzbqbcI/AAAAAAAACA0/1ian8CfRW9o-HTtSpVWOU2AG1TmmkUY3QCLcB/s1600/Cinderella-Transparent-PNG.png"
