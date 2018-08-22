@@ -36,12 +36,13 @@ def criarcenas():
     
     alice = Elemento(img = ALICE, tit="Alice",style =dict(left=150 , top=150, width=60, height=200))
     alice.entra(pantano)
+    tarzan.vai()
     ealice = Texto(pantano,"SOCORRRO")
     alice.vai=ealice.vai
     
     alice.espera(1000)
     
-    tarzan.vai()
+ 
     
     tarzan = Elemento(img = TARZAN, tit="Tarzan", style =dict(left=50 , top=150, width=60, height=200))
     tarzan.entra(pantano)
