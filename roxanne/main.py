@@ -40,7 +40,8 @@ def porcena():
     ealice = Texto(pantano,"help help")
     alice.vai=ealice.vai
     
-    
+    pantano.vai()
+porcena()
     
     
     
