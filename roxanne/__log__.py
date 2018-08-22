@@ -388,3 +388,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Aug 22 2018 16:13:57.608 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 38
+  alice.entra(pantano)
+  ^
+IndentationError: unexpected indent
+'''},
