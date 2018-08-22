@@ -23,7 +23,7 @@ def criarcenas():
     cidade.direita = cidade2
     cidade2.esquerda = cidade
     
-    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=100, height=250))
+    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=100, height=200))
     alice.entra(floresta)
     ealice = Texto(floresta, "Alice caminhava na floresta e estava perdida. Atormentada por seus pensamentos, imaginava todas coisas que poderiam estar acontecendo em sua casa.")
     alice.vai=ealice.vai
