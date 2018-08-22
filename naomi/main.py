@@ -1,6 +1,8 @@
 # ida.naomi.main.py
 from _spy.vitollino.main import Cena, Elemento, Texto
 from _spy.vitollino.main import INVENTARIO as inv
+STYLE["width"] = 600
+STYLE["height"] = "600px"
 Cidade = "https://thumbs.dreamstime.com/b/arquitectura-da-cidade-azul-34467258.jpg"
 Cidade1 = "https://thumbs.dreamstime.com/b/arquitectura-da-cidade-azul-34467258.jpg"
 Esgoto = "https://forbes.uol.com.br/wp-content/uploads/2018/04/esgoto-2.jpg"
@@ -36,7 +38,7 @@ def criarcenas():
     
     
     cidade1 =Cena(img=Cidade1)
-    barbie =Elemento(img= Barbie, tit="Boneca chata", style=dict(left=100,top=100, width=60,height=200))
+    barbie =Elemento(img=Barbie, tit="Boneca chata", style=dict(left=100,top=100, width=60,height=200))
     barbie.entra(cidade1)
     homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
     homem_aranha.entra(cidade1)
