@@ -10,15 +10,17 @@ CIDADE = "https://i.imgur.com/RqRv4YB.jpg"
 def criarcenas():
     floresta = Cena(img=FLORESTA)
     cidade = Cena(img=CIDADE)
+    cidade2 = Cena(img=CIDADE)
+    
     floresta.direita = cidade
     cidade.esquerda = floresta
+    cidade.direita = cidade2
+    cidade2.esquerda = cidade
     
     homem_aranha = Elemento(img=HOMEM_ARANHA, tit="homem Aranha", style=dict(left=150, top=150, width=60, height=200))
     homem_aranha.entra(floresta)
     falahomem_aranha = Texto(floresta, "Nossa! que isso? Estou numa floresta... como vim parar aqui?")
     homem_aranha.vai = falahomem_aranha.vai
-    
-    
     
     tarzan = Elemento(img=TARZAN, tit="tarzan", style=dict(left=150, top=150, width=60, height=200))
     tarzan.entra(cidade)
@@ -26,8 +28,8 @@ def criarcenas():
     tarzan.vai = falatarzan.vai
     
     barbie = Elemento(img=BARBIE, tit="barbie", style=dict(left=150, top=150, width=60, height=200))
-    barbie.entra(cidade)
-    falabarbie = Texto(cidade, "Oi, homem-aranha!!! poderia ir numa festa comigo?")
+    barbie.entra(cidade2)
+    falabarbie = Texto(cidade2, "Oi, homem-aranha!!! poderia ir numa festa comigo?")
     barbie.vai = falabarbie.vai
 
     floresta.vai()
