@@ -12,5 +12,5 @@ def criarcenas():
     pantano =Cena(img=PANTANO)
     cidade.direita = pantano
     
-    homem_aranha =Elemento(img= HOMEM_ARANHA, tit="Homem_aranha", style=dict(left=150, top=150, width=60, height=200)
+    homem_aranha =Elemento(img= HOMEM_ARANHA, tit="Homem_aranha", style=dict(left=150, top=150, width=60, height=200))
     homem_aranha.entra(cidade)
