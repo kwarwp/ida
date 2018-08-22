@@ -29,4 +29,5 @@ def criarcenas():
     barbie.vai = falabarbie.vai
 
     floresta.vai()
+    cidade.vai()
 criarcenas()
