@@ -14,7 +14,7 @@ def criarcenas():
     
     homem_aranha =Elemento(img= HOMEM_ARANHA, tit="Homem_aranha", style=dict(left=150, top=120, width=60, height=200))
     homem_aranha.entra(cidade)
-    lata_de_lixo =Elemento(img= LATA_DE_LIXO, tit="Lata_de_lixo", style=dict(right=150, top=50, width=10, height=20))
+    lata_de_lixo =Elemento(img= LATA_DE_LIXO, tit="Lata_de_lixo", style=dict(right=150, top=50, width=30, height=20))
     lata_de_lixo.entra(cidade)
     falalata_de_lixo = Texto(cidade, "num fim de tarde, incidentes misteriosos alarmavam a cidade")
     lata_de_lixo.vai=falalata_de_lixo.vai
