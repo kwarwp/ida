@@ -109,3 +109,10 @@ NameError: name 'deserto' is not defined
     falabarbie = Texto(deserto, "Socorro!Socorro!Estou na areia movediça!!")
 NameError: name 'deserto' is not defined
 '''},
+{'date': 'Wed Aug 22 2018 16:00:16.620 GMt-0300 (Hora oficial do Brasil) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 11
+  TARZAN 2 = "https://vignette.wikia.nocookie.net/vsbattles/images/6/68/Tarzan.png/revision/latest?cb=20170117061234"
+          ^
+SyntaxError: invalid syntax
+'''},
