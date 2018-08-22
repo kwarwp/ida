@@ -21,7 +21,7 @@ def criarcenas():
     
     
     
-    deserto.vai
+    floresta.vai
 criarcenas()
     
    # yoda =Elemento(img= MESTRE_YODA, tit="Mestre Yoda", style=dict(left=150, top=150, width=50, height=150))
