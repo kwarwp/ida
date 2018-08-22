@@ -32,21 +32,21 @@ def criarcenas():
     alice.entra(floresta2)
     ealice = Texto(floresta2, "Então Alice, perdida na floresta, com seus pensamentos trevosos, encontra o Mestre Yoda.")
     alice.vai=ealice.vai
-    yoda =Elemento(img= MESTRE_YODA, tit="Mestre Yoda", style=dict(left=200, top=150, width=100, height=50))
+    yoda =Elemento(img= MESTRE_YODA, tit="Mestre Yoda", style=dict(left=200, top=150, width=200, height=50))
     yoda.entra(floresta2)
     eyoda = Texto(floresta2, "Vendo a aflição da menina, aconselha que ela tem que tirar férias na cidade")
     yoda.vai=eyoda.vai
     
-    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=500, top=150, width=100, height=200))
+    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=700, top=150, width=200, height=200))
     alice.entra(cidade)
     ealice = Texto(cidade, "Seguindo o conselho do Mestre Yoda, Alice foi para cidade tirar umas férias. ")
     alice.vai=ealice.vai
     
-    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=500, top=150, width=100, height=200))
+    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=700, top=150, width=200, height=200))
     alice.entra(cidade2)
     ealice = Texto(cidade2, "Enquanto passeava em um belo parque cheio de árvores e pássaros, viu de longe Cinderela, cantando lindas canções, e acabou esquecendo de todos os seus problemas.")
     alice.vai=ealice.vai
-    cinderela =Elemento(img= CINDERELA, tit="Cinderela", style=dict(left=200, top=150, width=300, height=400))
+    cinderela =Elemento(img= CINDERELA, tit="Cinderela", style=dict(left=60, top=150, width=500, height=400))
     cinderela.entra(cidade2)
     
     
