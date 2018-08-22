@@ -38,3 +38,10 @@ SyntaxError: invalid syntax
     Aranha.entra(guloseimas)
 NameError: name 'Aranha' is not defined
 '''},
+{'date': 'Wed Aug 22 2018 15:37:56.807 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 27
+  criarcenas(/)
+              ^
+SyntaxError: invalid syntax
+'''},
