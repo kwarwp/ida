@@ -30,14 +30,16 @@ def criarcenas():
     esgoto =Cena(img=Esgoto) 
     homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
     homem_aranha.entra(esgoto)
-    ehomem_aranha = Texto (Cidade, "vou salvar meu amigo tarzan preso em minha casa")
+    ehomem_aranha = Texto(Esgoto, "vou salvar meu amigo tarzan preso em minha casa")
     homem_aranha.vai=ehomem_aranha.vai
     
     
     cidade =Cena(img=Cidade)
     barbie =Elemento(img= Barbie, tit="Boneca chata", style=dict(left=100,top=100, width=60,height=200))
+    barbie.entra(cidade)
     homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
-    ehomem_aranha = Texto (Cidade, "Uau, to apaixonado")
+    homem_aranha.entra(cidade)
+    ehomem_aranha = Texto(Cidade, "Uau, to apaixonado")
     homem_aranha.vai=ehomem_aranha.vai
     
     floresta.direita = cidade
