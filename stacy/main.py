@@ -17,7 +17,7 @@ def criarcenas():
     
     tarzan=Elemento(img=TARZAN, tit="Tarzan" , style=dict(left=100, top=50, width=60, height=200))
     tarzan.entra(floresta)
-    falatarzan = Texto(floresta, "Que fome !!!)
+    falatarzan = Texto(floresta, "Que fome !!!")
     tarzan.vai=falatarzan.vai
     
     floresta.vai()
