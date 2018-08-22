@@ -13,7 +13,7 @@ TARZAN = "https://banner2.kisspng.com/20180501/ite/kisspng-tarzan-jane-porter-fi
 YODA = "https://banner2.kisspng.com/20180202/lzq/kisspng-yoda-darth-maul-star-wars-jedi-star-wars-transparent-background-5a7487326a2b16.7780970115175862264349.jpg"
 BARBIE = "https://icon2.kisspng.com/20180402/uaw/kisspng-barbie-a-fashion-fairytale-ballet-clip-art-barbie-5ac1e5f0320ce3.916858761522656752205.jpg"
 ALICE = "https://icon2.kisspng.com/20180327/uue/kisspng-alice-liddell-alice-s-adventures-in-wonderland-the-alice-in-wonderland-5ab9ee8c10bb20.5426997015221346680685.jpg"
-CIDADE = "https://www.nycgo.com/images/venues/2238/times-square-bus-7th-ave-brad-ogbonna__x_large.jpg"
+CIDADE = "https://img.elo7.com.br/product/zoom/1ABC2E1/painel-adesivo-decorativo-cidade-painel-decorativo-de-parede.jpg"
 PANTANO = "https://eucontista.files.wordpress.com/2015/10/pantano-306619.jpg"
 CASTELO = "https://http2.mlstatic.com/mega-banner-painel-decoraco-castelo-240-x-150-mts-D_NQ_NP_880090-MLB25838655185_082017-F.jpg"
 def criarcenas():
