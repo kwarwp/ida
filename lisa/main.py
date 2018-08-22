@@ -1,7 +1,8 @@
 # ida.lisa.main.py
 # ida.kellee.main.py
-from _spy.vitollino.main import Cena, Elemento, Texto
+from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 from _spy.vitollino.main import INVENTARIO as inv
+STYLE["width"]=1000
 CHA = "https://vignette.wikia.nocookie.net/disneyprincesas/images/e/ef/Alice-in-wonderland-disneyscreencaps.com-5785.jpg/revision/latest?cb=20140822145715&path-prefix=pt-br"
 TARZAN1 = "https://vignette.wikia.nocookie.net/vsbattles/images/6/68/Tarzan.png/revision/latest?cb=20170117061234"
 TARZAN2 = "https://vignette.wikia.nocookie.net/vsbattles/images/6/68/Tarzan.png/revision/latest?cb=20170117061234"
@@ -38,8 +39,8 @@ def criarcenas():
     
     tarzan1.entra (floresta)
     aranha.entra (cha)
-    aranha.vai
     earanha = Texto (cha, "eu mesmo!")
+    aranha.vai = earanha.vai
     tarzan2.entra (cha)
     etarzan2 = Texto (cha, "ouça esse som!")
     barbie.entra (pantano)
