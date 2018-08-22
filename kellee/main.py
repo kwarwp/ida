@@ -26,4 +26,9 @@ def criarcenas ():
     barbie.entra(pantano)
     falabarbie = Texto(deserto, "Socorro! Socorro! Estou na areia movediça!!")
     barbie.vai=falabarbie.vai
+    
+    
+    
+    
+    pantano.vai()
    
