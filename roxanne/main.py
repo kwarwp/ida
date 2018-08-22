@@ -38,6 +38,9 @@ def porcena():
     alice = Elemento(img = ALICE, lilice="Alice",style =dict(left=150 , top=150, width=60, height=200))
     alice.entra(pantano)
     ealice = Texto(pantano,"help help")
+    alice.vai=ealice.vai
+    
+    
     
     
     
