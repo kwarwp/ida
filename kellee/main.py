@@ -32,7 +32,7 @@ def criarcenas ():
     barbie.entra(pantano)
     falabarbie = Texto(pantano, "Socorro!Socorro!Estou na areia movediça!!")
     barbie.vai=falabarbie.vai
-    tarzan =Elemento(img= TARZAN2, tit="Tarzan", style=dict(left=100, top=100, width=90,height=100))
+    tarzan =Elemento(img= TARZAN2, tit="Tarzan", style=dict(left=100, top=100, width=190,height=100))
     tarzan.entra(castelo)
     tarzan.vai
     barbie =Elemento(img= BARBIE2, tit="Barbie", style=dict(left=150, top=150, width=60,heigth=200))
