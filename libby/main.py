@@ -10,3 +10,7 @@ CIDADE = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/CentroRJ.jpg
 def criarcenas():
     cidade =Cena(img=CIDADE)
     pantano =Cena(img=PANTANO)
+    cidade.direita = pantano
+    
+    homem_aranha =Elemento(img= HOMEM_ARANHA, tit="Homem_aranha", style=dict(left=150, top=150, width=60, height=200)
+    homem_aranha.entra(cidade)
