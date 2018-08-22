@@ -25,10 +25,10 @@ def criarcenas():
     
     tarzan.entra (floresta)
     aranha.entra (guloseimas)
-    falatarzan = texto (guloseimas, "Olha, o Homem Aranha")
-    tarzan.vai=falatarzan.vai
-    falaaranha = texto (guloseimas, "Sim, sou eu mesmo!")
-    aranha.vai=falaaranha.vai
+    etarzan = texto (guloseimas, "Olha, o Homem Aranha")
+    tarzan.vai=etarzan.vai
+    earanha = texto (guloseimas, "Sim, sou eu mesmo!")
+    aranha.vai=earanha.vai
     
     
     floresta.vai()
