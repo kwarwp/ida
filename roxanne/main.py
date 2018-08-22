@@ -39,7 +39,7 @@ def criarcenas():
     ealice = Texto(pantano,"SOCORRRO")
     alice.vai=ealice.vai
     
-    
+    tarzan.espera(1)
     tarzan.vai()
  
     
