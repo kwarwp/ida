@@ -16,10 +16,13 @@ def criarcenas():
     floresta.direita = guloseimas
     guloseimas.esquerda=floresta
     floresta.direita = guloseimas
-    Guloseimas.direita= pantano
+    guloseimas.direita= pantano
 
     
     tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(left=150, top=150, width=60, height=200))
+    aranha =Elemento(img= ARANHA, tit="Aranha", style=dict(left=150, top=150, width=60, height=200))
+    barbie =Elemento(img= BARBIE, tit="Barbie", style=dict(left=150, top=150, width=60, height=200))
+    
     tarzan.entra(floresta)
     aranha.entra(guloseimas)
     falatarzan = texto (guloseimas, "Olha, o Homem Aranha")
