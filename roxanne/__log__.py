@@ -13,3 +13,10 @@ SyntaxError: invalid syntax
          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 22 2018 14:55:43.392 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 14
+  HOMEM ARANHA = "https://vignette.wikia.nocookie.net/marvel/images/2/2e/Homem-aranha.png"
+         ^
+SyntaxError: invalid syntax
+'''},
