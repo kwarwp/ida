@@ -19,9 +19,11 @@ def criarcenas():
     pantano.vai()
 criarcenas()
 
-   pantano =Elemento(img= PANTANO, tit="pantano", style=dict(left=150, top=150, width=60,height=200))
-    pantano.entra(pantano)
-          pantano.vai()
+    tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(left=150, top=150, width=60,height=200))
+    tarzan.entra(pantano)
+    falatarzan = Texto(pantano, "-Oooo oooo  ooooo ooooo!!!!- Eis que surge o Tarzan, que indignou-se pela hora que a menina andava pela rua. -Que cê tá fazendo aqui? Tá tarde!")
+    tarzan.vai=falatarzan.vai
+    pantano.vai()
 criarcenas()
     
     
