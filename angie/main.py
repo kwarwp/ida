@@ -28,11 +28,11 @@ def criarcenas():
     ealice = Texto(floresta, "Alice caminhava na floresta e estava perdida. Atormentada por seus pensamentos, imaginava todas coisas que poderiam estar acontecendo em sua casa.")
     alice.vai=ealice.vai
     
-    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=200, top=150, width=200, height=200))
+    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=500, top=150, width=200, height=200))
     alice.entra(floresta2)
     ealice = Texto(floresta2, "Então Alice, perdida na floresta, com seus pensamentos trevosos, encontra o Mestre Yoda.")
     alice.vai=ealice.vai
-    yoda =Elemento(img= MESTRE_YODA, tit="Mestre Yoda", style=dict(left=60, top=150, width=100, height=70))
+    yoda =Elemento(img= MESTRE_YODA, tit="Mestre Yoda", style=dict(left=200, top=150, width=100, height=50))
     yoda.entra(floresta2)
     eyoda = Texto(floresta2, "Vendo a aflição da menina, aconselha que ela tem que tirar férias na cidade")
     yoda.vai=eyoda.vai
