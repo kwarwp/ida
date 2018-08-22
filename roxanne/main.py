@@ -35,5 +35,5 @@ def porcena():
     
     pantano.direita = castelo
     
-    barbie = Elemento(img = ALICE, lilice="Alice",style =dict(left=150 , top=150, width=60, height=200)
+    barbie = Elemento(img = ALICE, lilice="Alice",style =dict(left=150 , top=150, width=60, height=200))
     
