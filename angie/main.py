@@ -15,7 +15,7 @@ def criarcenas():
     
     alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60, height=200))
     alice.entra(floresta)
-    ealice = Texto(floresta, "Alice caminhava na floresta e estava perdida. Atormentada por seus pensamentos, imaginava todas coisas que poderiam estar acontecendo em sua casa.")
+    ealice = Texto(floresta, "Alice caminhava na floresta e estava perdida.Atormentada por seus pensamentos, imaginava todas coisas que poderiam estar acontecendo em sua casa.")
     alice.vai=ealice.vai
     
     
