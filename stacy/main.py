@@ -21,6 +21,8 @@ def criarcenas():
     tarzan.vai=falatarzan.vai
     
     floresta.vai()
+   
+criarcenas()
     
     
     
