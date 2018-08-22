@@ -41,6 +41,10 @@ def criarcenas():
     ebarbie = Texto (castelo, "venha para um almoço de agradecimento!")
     tarzan.vai = etarzan.vai
     
+criarcenas(/)
+    
+
+    
     
     
     
