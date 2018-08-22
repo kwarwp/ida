@@ -1,6 +1,6 @@
 # ida.sara.main.py
-from _spy.vitollino.main import Cena, Elemento, Texto
-from _spy.vitollino.main import INVENTARIO as inve
+from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
+STYLE=["widt"]900
 PANTANO = "https://1.bp.blogspot.com/-jALpqBrfBW4/VvvS6bpUnVI/AAAAAAAAATo/sd2gRUbk3tc-rdp8iPeEXCgz6LSQGjGzQ/s1600/Swamp%2BHouse.jpg"
 ALICE = "https://3.bp.blogspot.com/-o7Y78sYGkjY/V6O1G7WysSI/AAAAAAAAMO8/IG0Q7cJKKcYA70fLNINSaLG02t9fQT52QCLcB/s1600/ALICE%2B%25283%2529.png"
 TARZAN = "https://vignette.wikia.nocookie.net/vsbattles/images/6/68/Tarzan.png/revision/latest?cb=20170117061234"
