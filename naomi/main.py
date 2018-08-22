@@ -8,3 +8,29 @@ Floresta = "https://ipc.digital/wp-content/uploads/2016/12/banho-de-floresta-640
 Homem_Aranha = "http://3.bp.blogspot.com/-uv54jlZoqfU/T9eUlpul_CI/AAAAAAAAFos/NCmWuK9X9Nw/s1600/Homem-Aranha-png-Queroimagem.com+%284%29.png"
 Tarzan = "http://i82.photobucket.com/albums/j242/asia5/youngtarzan.png"
 Barbie = "https://i.pinimg.com/originals/e7/b9/75/e7b975861052f57c15095b4e85304adc.png"
+
+def criarcenas():
+    floresta =Cena(img=Floresta)
+    Homem_Aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
+    floresta.direita = cidade
+    cidade =Cena(img=Cidade)
+    cidade.direita = apartamento
+    apartamento =Cena(img=Apartamento)
+    Tarzan =Elemento(img= Tarzan, tit="Ex-marido da Jane", style=dict(left=150, top=150, width=60,height=200))
+    eTarzan =Texto (Apartamento, "alguem me ajuda a sair daqui!!!!")
+    Tarzan.vai=eTarzan.vai
+    apartamento.direita = floresta
+    floresta =Cena(img=Floresta)
+    Homem_Aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
+    floresta.direita = esgoto
+    esgoto =Cena(img=Esgosto)
+    Homem_Aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
+    esgoto.direita = cidade
+    cidade =Cena(img=Cidade)
+    Barbie =Elemento(img= Barbie, tit="Boneca chata", style=dict(left=150, top=150, width=60,height=200))
+    
+    
+    
+    Floresta.vai
+    criarcenas()
+    
