@@ -11,4 +11,6 @@ def criarcenas():
     floresta =Cena(img=FLORESTA)
     cidade =Cena(img=CIDADE) 
     floresta.direita = praia 
-    cidade.esquerda = floresta
+    cidade.esquerda = floresta 
+    
+    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60, height=200) 
