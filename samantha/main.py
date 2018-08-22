@@ -25,10 +25,10 @@ def criarcenas():
     cinderela.entra(cha)
     
     alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60,height=200))
-    alice.entra(floresta)
+    alice.entra(cha)
     
     tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(left=150, top=150, width=60,height=200))
-    tarzan.entra(floresta)
+    tarzan.entra(cha)
     
     ecinderela = Texto(cha, " boa tarde!")
     cinderela.vai=ecinderela.vai
