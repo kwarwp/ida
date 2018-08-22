@@ -12,4 +12,7 @@ def criarcenas():
     praça =Cena(img=PRAÇA)
     pantano.direita = praça
     
-    alice =Elemeto(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60, height=200)
+    alice =Elemeto(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60,height=200))
+    alice.entra(pantano)
+    
+    
