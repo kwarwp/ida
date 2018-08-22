@@ -27,7 +27,7 @@ PANTANO = "https://eucontista.files.wordpress.com/2015/10/pantano-306619.jpg"
 
 CASTELO = "https://http2.mlstatic.com/mega-banner-painel-decoraco-castelo-240-x-150-mts-D_NQ_NP_880090-MLB25838655185_082017-F.jpg"
 
-def porcena():
+def porcenas():
     pantano =Cena(img=PANTANO)
     castelo =Cena(img=CASTELO)
     pantano.direita = castelo
