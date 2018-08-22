@@ -20,3 +20,9 @@ def criarcenas():
     
     
     
+    
+    deserto.vai
+    criarcenas()
+    
+    
+    
