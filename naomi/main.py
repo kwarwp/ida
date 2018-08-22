@@ -17,9 +17,9 @@ def criarcenas():
     floresta.direita = cidade
     apartamento =Cena(img=Apartamento)
     cidade.direita = apartamento
-    Tarzan =Elemento(img= Tarzan, tit="Ex-marido da Jane", style=dict(left=150, top=150, width=60,height=200))
-    eTarzan =Texto (Apartamento, "alguem me ajuda a sair daqui!!!!")
-    Tarzan.vai=eTarzan.vai
+    tarzan =Elemento(img= Tarzan, tit="Ex-marido da Jane", style=dict(left=150, top=150, width=60,height=200))
+    etarzan =Texto (Apartamento, "alguem me ajuda a sair daqui!!!!")
+    tarzan.vai=eTarzan.vai
     apartamento.direita = floresta
     floresta =Cena(img=Floresta)
     homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
@@ -28,7 +28,7 @@ def criarcenas():
     homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
     esgoto.direita = cidade
     cidade =Cena(img=Cidade)
-    Barbie =Elemento(img= Barbie, tit="Boneca chata", style=dict(left=150, top=150, width=60,height=200))
+    barbie =Elemento(img= Barbie, tit="Boneca chata", style=dict(left=150, top=150, width=60,height=200))
     
        
     floresta.vai()
