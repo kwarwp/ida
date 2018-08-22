@@ -34,3 +34,10 @@ SyntaxError: invalid syntax
                                                                                                                        ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 22 2018 15:39:09.804 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 30
+  floresta.vai()
+  ^
+IndentationError: unexpected indent
+'''},
