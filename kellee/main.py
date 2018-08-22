@@ -31,4 +31,5 @@ def criarcenas ():
     
     
     pantano.vai()
+criarcena()
    
