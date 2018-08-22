@@ -13,3 +13,10 @@ SyntaxError: EOL while scanning string literal
                                              ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Wed Aug 22 2018 15:34:23.350 GMt-0300 (Hora oficial do Brasil) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 20
+  falatarzan = Texto(floresta, "Que fome !!!)
+                                             ^
+SyntaxError: EOL while scanning string literal
+'''},
