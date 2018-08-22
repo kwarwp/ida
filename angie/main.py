@@ -1,7 +1,7 @@
 # ida.angie.main.py
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 from _spy.vitollino.main import INVENTARIO as inv
-STYLE ["width"] = 600
+STYLE ["width"] = 1000
 STYLE ["height"] = "600px"
 ALICE = "https://3.bp.blogspot.com/-o7Y78sYGkjY/V6O1G7WysSI/AAAAAAAAMO8/IG0Q7cJKKcYA70fLNINSaLG02t9fQT52QCLcB/s1600/ALICE%2B%25283%2529.png"
 MESTRE_YODA = "https://vignette.wikia.nocookie.net/disney/images/9/95/Master_Yoda.png/revision/latest?cb=20161024220430&path-prefix=pt-br"
@@ -23,7 +23,7 @@ def criarcenas():
     cidade.direita = cidade2
     cidade2.esquerda = cidade
     
-    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60, height=250))
+    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=100, height=250))
     alice.entra(floresta)
     ealice = Texto(floresta, "Alice caminhava na floresta e estava perdida. Atormentada por seus pensamentos, imaginava todas coisas que poderiam estar acontecendo em sua casa.")
     alice.vai=ealice.vai
