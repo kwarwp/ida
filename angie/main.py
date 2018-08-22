@@ -18,13 +18,14 @@ def criarcenas():
     ealice = Texto(floresta, " Alice caminhava na floresta e estava perdida.")
     alice.vai=ealice.vai
     
+    #yoda =Elemento(img= MESTRE_YODA, tit="Mestre Yoda", style=dict(left=150, top=150, width=50, height=150))
+    #yoda.entra(floresta)
+    
+    #cinderela =Elemento(img= CINDERELA, tit="Cinderela", style=dict(left=150, top=150, width=60, height=200))
     
     
     
-    floresta.vai
+    floresta.vai()
 criarcenas()
     
-# yoda =Elemento(img= MESTRE_YODA, tit="Mestre Yoda", style=dict(left=150, top=150, width=50, height=150))
-# yoda.entra(floresta)
-    
-# cinderela =Elemento(img= CINDERELA, tit="Cinderela", style=dict(left=150, top=150, width=60, height=200)) 
+ 
