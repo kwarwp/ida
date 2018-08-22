@@ -29,15 +29,22 @@ def criarcenas():
     
     tarzan.entra =(floresta)
     aranha.entra =(cha)
-    aranha = Texto (cha, "eu mesmo!")
+    earanha = Texto (cha, "eu mesmo!")
     tarzan.entra =(cha)
-    tarzan = Texto (cha, "ouça esse som!")
+    etarzan = Texto (cha, "ouça esse som!")
     barbie.entra =(pantano)
-    barbie = Texto (pantano, "SOCORRO, estou presa na areia movediça!")
+    ebarbie = Texto (pantano, "SOCORRO, estou presa na areia movediça!")
     tarzan.entra =(pantano)
-    tarzan = Texto (pantano, "eu te ajudo!")
+    etarzan = Texto (pantano, "eu te ajudo!")
     barbie.entra =(castelo)
-    barbie = Texto (castelo, "venha para um almoço de agradecimento!)
+    tarzan.entra =(castelo)
+    ebarbie = Texto (castelo, "venha para um almoço de agradecimento!)
+    tarzan.vai = etarzan.vai
+    
+    
+    
+    
+    floresta.vai()
     
     
     
