@@ -26,6 +26,6 @@ def criarcenas():
     barbie.entra(cidade)
     falabarbie = Texto(cidade, "Oi, homem-aranha!!! poderia ir numa festa comigo?")
     barbie.vai = falabarbie.vai
-   
-   floresta.vai()
+
+floresta.vai()
 criarcenas()
