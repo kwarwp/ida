@@ -12,3 +12,5 @@ def criarcenas():
     cidade = Cena(img=CIDADE)
     
     floresta.direita = cidade
+    
+    homem_aranha = Elemento(img=HOMEM_ARANHA, tit="homem_aranha", style=dict(left=150, top=150, width=60, height=200)
