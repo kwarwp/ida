@@ -2,7 +2,7 @@
 from _spy.vitollino.main import Cena, Elemento,Texto, STYLE
 from _spy.vitollino.main import INVENTARIO as inv
 STYLE["width"] = 900
-STYLE["height"] = 900
+STYLE["height"] = 2000
 
 TARZAN = "https://vignette.wikia.nocookie.net/disney/images/6/6a/Tarzan_KH.png/revision/latest?cb=20130130213033"
 ALICE = "https://i.pinimg.com/originals/53/dc/44/53dc445ee31c9bcc63c65420451ddfe3.png"
