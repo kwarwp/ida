@@ -1,5 +1,13 @@
 # ida.lisa.main.py
+# ida.kellee.main.py
 from _spy.vitollino.main import Cena, Elemento, Texto
-from _spy.vitollino.main import INVENTARIO as inv 
-HOMEN ARANHA = "http://unuk.es/en/product/marvel-kids-sleeping-bag-by-selkbag/"
-FLORESTA = 
+from _spy.vitollino.main import INVENTARIO as inv
+CHA = "https://vignette.wikia.nocookie.net/disneyprincesas/images/e/ef/Alice-in-wonderland-disneyscreencaps.com-5785.jpg/revision/latest?cb=20140822145715&path-prefix=pt-br"
+TARZAN = "https://vignette.wikia.nocookie.net/vsbattles/images/6/68/Tarzan.png/revision/latest?cb=20170117061234"
+ARANHA = "https://lumiere-a.akamaihd.net/v1/images/usa_spider-man_chi_spider-man_r_d909a17b.png?region=0%2C0%2C600%2C600"
+FLORESTA = "https://img.elo7.com.br/product/zoom/12F2BAA/painel-de-festa-floresta-3-painel-em-tecido.jpg"
+BARBIE = "http://www.pngmart.com/files/4/Barbie-Transparent-Background.png"
+PANTANO = "https://gartic.com.br/imgs/mural/ca/catapimbador/pantano.png"
+CASTELO = "https://vignette.wikia.nocookie.net/barbie-movies/images/9/9f/Wpm56_Panel_28.jpg/revision/latest?cb=20140413120357"
+
+
