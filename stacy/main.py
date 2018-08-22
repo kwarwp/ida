@@ -6,7 +6,7 @@ TARZAN = "https://banner2.kisspng.com/20180406/xrq/kisspng-disney-s-tarzan-youtu
 ALICE = "https://i.pinimg.com/originals/53/dc/44/53dc445ee31c9bcc63c65420451ddfe3.png"
 CHAPELEIRO = "https://1.bp.blogspot.com/-tAXkGMOWegk/VviGXWfyrTI/AAAAAAAARrY/GQw3qlEZ-z8djESn2fqer2Rctb0FyrCug/s1600/plano-de-aula-alice-no-pa%25C3%25ADs-das-maravilhas%252Cchapeleiro.gif"
 FLORESTA = "https://img.elo7.com.br/product/zoom/12F2BAA/painel-de-festa-floresta-3-painel-em-tecido.jpg"
-MESA = "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiMzp6inoHdAhVFjpAKHUvnAlAQjRx6BAgBEAU&url=https%3A%2F%2Fcasamenteiras.casare.me%2F2009%2F05%2F30%2Falice-no-pais-das-maravilhas%2F&psig=AOvVaw1tgJLuP7oPOQDfseNH4y7W&ust=1535047095861794"
+MESA = "https://vignette.wikia.nocookie.net/kingdomhearts/images/a/ac/Wonderland-_Tea_Party_Garden_%28Art%29_KH.png/revision/latest?cb=20131218033510"
 CASA = "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjtpoy2noHdAhUMl5AKHU1dCTYQjRx6BAgBEAU&url=https%3A%2F%2Fpt.pngtree.com%2Ffree-png-vectors%2Fdesenho-de-casa&psig=AOvVaw0iwEjF9ZGsavG6xEAVbcqV&ust=1535047151462445"
 
 def criarcenas():
