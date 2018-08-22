@@ -30,7 +30,6 @@ CASTELO = "https://http2.mlstatic.com/mega-banner-painel-decoraco-castelo-240-x-
 def porcena():
     pantano =Cena(img=PANTANO)
     castelo =Cena(img=CASTELO)
-    
     pantano.direita = castelo
     
     alice = Elemento(img = ALICE, lilice="Alice",style =dict(left=150 , top=150, width=60, height=200))
@@ -39,7 +38,7 @@ def porcena():
     alice.vai=ealice.vai
     
     pantano.vai()
-porcena()
+    porcena()
     
     
     
