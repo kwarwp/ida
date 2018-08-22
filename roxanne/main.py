@@ -29,9 +29,9 @@ CASTELO = "https://http2.mlstatic.com/mega-banner-painel-decoraco-castelo-240-x-
 
 def porcena():
 
-    pantano = Cena(img=PANTANO)
-    castelo = Cena(img=CASTELO)
-    cidade = Cena(img=CIDADE)
+    pantano =Cena(img=PANTANO)
+    castelo =Cena(img=CASTELO)
+    cidade =Cena(img=CIDADE)
     
     pantano.direita = castelo
     
