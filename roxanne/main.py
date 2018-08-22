@@ -36,16 +36,17 @@ def criarcenas():
     
     alice = Elemento(img = ALICE, tit="Alice",style =dict(left=150 , top=150, width=60, height=200))
     alice.entra(pantano)
-    ealice = Texto(pantano,"SOCORRRO")
-    alice.vai=ealice.vai
-    
-    
-    
-    tarzan.vai()
     tarzan = Elemento(img = TARZAN, tit="Tarzan", style =dict(left=50 , top=150, width=60, height=200))
     tarzan.entra(pantano)
     etarzan= Texto(pantano,"Não tema! Eu vim ajudar!")
     tarzan.vai=etarzan.vai
+    tarzan.vai()
+    alice.vai=ealice.vai
+    
+    
+    
+    
+   
     
     pantano.direita = castelo
 criarcenas()
