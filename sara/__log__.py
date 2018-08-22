@@ -173,3 +173,10 @@ SyntaxError: invalid syntax
                  ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 22 2018 16:02:18.773 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 22
+  pantano =Elemento(img= PANTANO, tit="pantano", style=dict(left=150, top=150, width=60,height=200))
+  ^
+IndentationError: unexpected indent
+'''},
