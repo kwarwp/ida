@@ -8,7 +8,7 @@ ARANHA = "https://lumiere-a.akamaihd.net/v1/images/usa_spider-man_chi_spider-man
 FLORESTA = "https://img.elo7.com.br/product/zoom/12F2BAA/painel-de-festa-floresta-3-painel-em-tecido.jpg"
 BARBIE = "http://www.pngmart.com/files/4/Barbie-Transparent-Background.png"
 PANTANO = "https://gartic.com.br/imgs/mural/ca/catapimbador/pantano.png"
-CASTELO = "https://www.colourbox.de/preview/27443962-.jpg"
+CASTELO = "https://vignette.wikia.nocookie.net/mlp/images/1/1b/Ponies_and_royal_guards_outside_the_castle_S03E13.png/revision/latest?cb=20130218113656"
 
 def criarcenas():
     cha =Cena(img=CHA)
