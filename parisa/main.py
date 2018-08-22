@@ -17,3 +17,8 @@ def criarcenas():
     cha.esquerda = selva
     cha.direita = casa
     casa.esquerda = cha
+    
+    tarzan = Elemento(img=TARZAN, tit="Tarzan", style=dict(left=150, top=150, width=50, height=200))
+    jane = Elemento(img=JANE, tit="Jane", style=dict(left=150, top=150, width=50, height=200))
+    cinderella = Elemento(img=CINDERELLA, tit="Cinderella", style=dict(left=150, top=150, width=50, height=200))
+    homem_aranha = Elemento(img=HOMEM_ARANHA, tit="Homem Aranha", style=dict(left=150, top=150, width=50, height=200))
