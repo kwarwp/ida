@@ -11,9 +11,9 @@ Barbie = "https://i.pinimg.com/originals/e7/b9/75/e7b975861052f57c15095b4e85304a
 
 def criarcenas():
     floresta =Cena(img=Floresta)
-    Homem_Aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
-    Homem_Aranha.entra(floresta)
-    Homem_Aranha.vai
+    homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha" , style=dict(left=150, top=150, width=60,height=200))
+    homem_aranha.entra(floresta)
+    homem_aranha.vai
     floresta.direita = cidade
     cidade =Cena(img=Cidade)
     cidade.direita = apartamento
@@ -33,7 +33,7 @@ def criarcenas():
     
     
     
-    Floresta.vai()
+    floresta.vai()
 criarcenas()
     
     
