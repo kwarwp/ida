@@ -28,24 +28,23 @@ PANTANO = "https://eucontista.files.wordpress.com/2015/10/pantano-306619.jpg"
 CASTELO = "https://http2.mlstatic.com/mega-banner-painel-decoraco-castelo-240-x-150-mts-D_NQ_NP_880090-MLB25838655185_082017-F.jpg"
 
 def criarcenas():
-    pantano =Cena(img=PANTANO)
-    castelo =Cena(img=CASTELO)
-    cidade = Cena(img=CIDADE)
+	pantano =Cena(img=PANTANO)
+	castelo =Cena(img=CASTELO)
+	cidade = Cena(img=CIDADE)
    
-    pantano.vai()
+	pantano.vai()
     
-        alice = Elemento(img = ALICE, tit="Alice",style =dict(left=150 , top=150, width=60, height=200))
-        alice.entra(pantano)
-        ealice = Texto(pantano,"help help")
-        alice.vai=ealice.vai
-
-        tarzan = Elemento(img = TARZAN, tit="Tarzan", style =dict(left=50 , top=150, width=60, height=200))
-        tarzan.entra(pantano)
-        etarzan= Texto(pantano,"Não tema! Eu vim ajudar!")
+	alice = Elemento(img = ALICE, tit="Alice",style =dict(left=150 , top=150, width=60, height=200))
+	alice.entra(pantano)
+	ealice = Texto(pantano,"help help")
+	alice.vai=ealice.vai
+	tarzan = Elemento(img = TARZAN, tit="Tarzan", style =dict(left=50 , top=150, width=60, height=200))
+	tarzan.entra(pantano)
+	etarzan= Texto(pantano,"Não tema! Eu vim ajudar!")
+	alice.vai=ealice.vai
+	pantano.direita = castelo
     
-    pantano.direita = castelo
-    
-    castelo.vai()
+	castelo.vai()
     
     
 criarcenas()
