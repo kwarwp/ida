@@ -34,10 +34,10 @@ def criarcenas():
     cinderela.vai=ecinderela.vai
     
     
-    etarzan = Texto(floresta, " Ola!")
+    etarzan = Texto(cha, " Ola!")
     tarzan.vai=etarzan.vai
     
-   
+    alice.entra(floresta)
     ealice = Texto(floresta, " vamos para casa!")
     alice.vai=ealice.vai
     
