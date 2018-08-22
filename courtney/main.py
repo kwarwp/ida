@@ -43,3 +43,6 @@ def criarcenas():
     alice.entra(casa)
     ealice = Texto(casa, " vamos conhecer o castelo?")
     alice.vai=ealice.vai
+    
+    casa.vai
+    criarcenas()
