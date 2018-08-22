@@ -13,4 +13,6 @@ def criarcenas():
     floresta.direita = praia 
     cidade.esquerda = floresta 
     
-    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60, height=200) 
+    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60, height=200)) 
+    yoda =Elemento(img= MESTRE_YODA, tit="Mestre Yoda", style=dict(left=150, top=150, width=50, height=150))
+    cinderela =Elemento(img= CINDERELA, tit="Cinderela", style=dict(left=150, top=150, width=60, height=200)) 
