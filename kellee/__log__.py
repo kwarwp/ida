@@ -34,3 +34,10 @@ SyntaxError: invalid syntax
          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 22 2018 15:36:29.110 GMt-0300 (Hora oficial do Brasil) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 25
+  barbie =Elemento(img= BARBIE, tit="Barbie", style=dict(left=150, top=150
+                                                                                ^
+SyntaxError: invalid syntax
+'''},
