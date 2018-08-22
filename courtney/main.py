@@ -34,6 +34,7 @@ def criarcenas():
     ealice = Texto(cha, " vamos para casa!")
     alice.vai=ealice.vai
     
-    
-    
     homem_aranha =Elemento(img= HOMEM_ARANHA, tit="homem_aranha", style=dict(left=150, top=150, width=60,height=200))
+    homem_aranha.entra(casa)
+    ealice = Texto(cha, " vamos para casa!")
+    alice.vai=ealice.vai
