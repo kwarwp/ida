@@ -11,6 +11,7 @@ TARZAN4 = "https://vignette.wikia.nocookie.net/vsbattles/images/6/68/Tarzan.png/
 ARANHA = "https://lumiere-a.akamaihd.net/v1/images/usa_spider-man_chi_spider-man_r_d909a17b.png?region=0%2C0%2C600%2C600"
 FLORESTA = "https://img.elo7.com.br/product/zoom/12F2BAA/painel-de-festa-floresta-3-painel-em-tecido.jpg"
 BARBIE = "http://www.pngmart.com/files/4/Barbie-Transparent-Background.png"
+BARBIE2 = "http://www.pngmart.com/files/4/Barbie-Transparent-Background.png"
 PANTANO = "https://gartic.com.br/imgs/mural/ca/catapimbador/pantano.png"
 CASTELO = "https://vignette.wikia.nocookie.net/mlp/images/1/1b/Ponies_and_royal_guards_outside_the_castle_S03E13.png/revision/latest?cb=20130218113656"
 
@@ -28,6 +29,7 @@ def criarcenas():
     castelo.esquerda = pantano
     
     barbie =Elemento(img= BARBIE, tit="Barbie", style= dict(left=150, top=150, width=60, height=200))
+    barbie2 =Elemento(img= BARBIE2, tit="Barbie2", style= dict(left=150, top=150, width=60, height=200))
     tarzan1 =Elemento(img= TARZAN1, tit="Tarzan1", style= dict(left=100, top=100, width=70, heigh=200))
     tarzan2 =Elemento(img= TARZAN2, tit="Tarzan2", style= dict(left=100, top=100, width=70, heigh=200))
     tarzan3 =Elemento(img= TARZAN3, tit="Tarzan3", style= dict(left=100, top=100, width=70, heigh=200))
@@ -44,9 +46,9 @@ def criarcenas():
     ebarbie = Texto (pantano, "SOCORRO, estou presa na areia movediça!")
     tarzan3.entra (pantano)
     etarzan3 = Texto (pantano, "eu te ajudo!")
-    barbie.entra (castelo)
+    barbie2.entra (castelo)
     tarzan4.entra (castelo)
-    ebarbie = Texto (castelo, "venha para um almoço de agradecimento!")
+    ebarbie2 = Texto (castelo, "venha para um almoço de agradecimento!")
  
  
     
