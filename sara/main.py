@@ -6,3 +6,11 @@ ALICE = "https://3.bp.blogspot.com/-o7Y78sYGkjY/V6O1G7WysSI/AAAAAAAAMO8/IG0Q7cJK
 TARZAN = "https://vignette.wikia.nocookie.net/vsbattles/images/6/68/Tarzan.png/revision/latest?cb=20170117061234"
 YODA = "https://vignette.wikia.nocookie.net/disney/images/9/95/Master_Yoda.png/revision/latest?cb=20161024220430&path-prefix=pt-br"
 AVENIDA = "https://3.bp.blogspot.com/-L6J4CqwyXWY/W2XD_sCVqhI/AAAAAAAA1Ck/dGexwCTuNsA3YCrC8vaQTb9lsY7dHDdugCLcBGAs/s1600/Ciclovia%2BAmaral%2BPeixoto%2B2.png"
+
+def criarcenas():
+    pantano =Cena(img=PANTANO)
+    avenida =Cena(img=AVENIDA)
+    pantano.direita = avenida
+    
+    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60,height=200)
+    
