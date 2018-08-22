@@ -24,7 +24,7 @@ def criarcenas():
     floresta.vai
 criarcenas()
     
-   # yoda =Elemento(img= MESTRE_YODA, tit="Mestre Yoda", style=dict(left=150, top=150, width=50, height=150))
-   # yoda.entra(floresta)
+# yoda =Elemento(img= MESTRE_YODA, tit="Mestre Yoda", style=dict(left=150, top=150, width=50, height=150))
+# yoda.entra(floresta)
     
-   # cinderela =Elemento(img= CINDERELA, tit="Cinderela", style=dict(left=150, top=150, width=60, height=200)) 
+# cinderela =Elemento(img= CINDERELA, tit="Cinderela", style=dict(left=150, top=150, width=60, height=200)) 
