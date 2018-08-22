@@ -22,12 +22,13 @@ def criarcenas():
     lata_de_lixo.vai=falalata_de_lixo.vai
     homem_aranha1 =Elemento(img= HOMEM_ARANHA1, tit="Homem_aranha1", style=dict(left=150, top=120, width=60, height="20px"))
     homem_aranha1.entra(pantano)
+    falahomem_aranha1 = Texto(pantano, "que estranho!")
     tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(right=150, top=120, width=60, height="20px"))
     tarzan.entra(pantano)
-    falatarzan = Texto(pantano, "OoOoOoOoooo")
+    falatarzan = Texto(pantano, "OoOoOoOoooo por aqui tudo corre bem")
     sapo =Elemento(img= SAPO, tit="sapo", style=dict(left=50, top=120, width=60, height="20px"))
     sapo.entra(pantano)
-    falasapo = Texto(pantano, "Homem aranha vai investigar num pantano próximo quando se depara com Tarzan. Juntos tentam desvendar o mistério"
+    falasapo = Texto(pantano, "Homem aranha vai investigar num pantano próximo quando se depara com Tarzan. Ao ver que não havia nada suspeito no local, começa a desconfiar que o inimigo esteja mais próximo do que imaginava")
     
     cidade.vai()
 criarcenas()
