@@ -8,3 +8,10 @@ FLORESTA = "https://cdn5.colorir.com/desenhos/color/201101/22de012c2fb28550dac23
 PRAIA = "https://banner2.kisspng.com/20180405/cve/kisspng-drawing-praia-5ac5c3722ee6f2.5189570815229100661921.jpg"
 DESERTO = "https://1.bp.blogspot.com/-jGzUZ1_8tho/V8nrH1Wn3jI/AAAAAAAALuY/GnLTMfrmB3E4l26fjMHHyH0n9uAe1ZpvQCLcB/s640/reserva-de-agua-deserto-las-vegas.png"
 
+def criarcenas():
+    deserto =Cena(img=DESERTO)
+    praia =Cena(img=PRAIA)
+    deserto.direita = praia
+    
+    barbie =Elemento(img= BARBIE, tit="Barbie", style=dict(left=150, top=150, width=60,height=200)
+    
