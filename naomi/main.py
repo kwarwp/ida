@@ -19,7 +19,7 @@ def criarcenas():
     homem_aranha.vai=ehomem_aranha.vai
     
     cidade =Cena(img=Cidade)
-    cidade.entra(cidade)
+    #cidade.entra(cidade)
     
     apartamento =Cena(img=Apartamento)
     apartamento.entra(apartamento)
