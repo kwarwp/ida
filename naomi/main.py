@@ -19,7 +19,7 @@ def criarcenas():
     cidade.direita = apartamento
     tarzan =Elemento(img= Tarzan, tit="Ex-marido da Jane", style=dict(left=150, top=150, width=60,height=200))
     etarzan =Texto (Apartamento, "alguem me ajuda a sair daqui!!!!")
-    tarzan.vai=eTarzan.vai
+    tarzan.vai=etarzan.vai
     apartamento.direita = floresta
     floresta =Cena(img=Floresta)
     homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
