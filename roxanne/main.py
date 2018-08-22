@@ -28,9 +28,9 @@ PANTANO = "https://eucontista.files.wordpress.com/2015/10/pantano-306619.jpg"
 CASTELO = "https://http2.mlstatic.com/mega-banner-painel-decoraco-castelo-240-x-150-mts-D_NQ_NP_880090-MLB25838655185_082017-F.jpg"
 
 def porcena():
-    cidade =Cena(img=CIDADE)
+    pantano =Cena(img=PANTANO)
     castelo =Cena(img=CASTELO)
-    cidade.direita = castelo
+    pantano.direita = castelo
     
     alice = Elemento(img = ALICE, lilice="Alice",style =dict(left=150 , top=150, width=60, height=200))
     alice.entra(pantano)
