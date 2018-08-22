@@ -38,7 +38,7 @@ def criarcenas():
     etarzan = Texto (pantano, "eu te ajudo!")
     barbie.entra =(castelo)
     tarzan.entra =(castelo)
-    ebarbie = Texto (castelo, "venha para um almoço de agradecimento!)
+    ebarbie = Texto (castelo, "venha para um almoço de agradecimento!")
     tarzan.vai = etarzan.vai
     
     
