@@ -18,6 +18,8 @@ def criarcenas():
     cha.direita =floresta
     floresta.direita =CASA
     casa.direita =CASTELO
-    
-    
-    
+
+    tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(left=150, top=150, width=60,height=200))
+    cinderela =Elemento(img= CINDERELA, tit="Cinderela", style=dict(left=150, top=150, width=60,height=200))
+    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60,height=200))
+    homem_aranha =Elemento(img= HOMEM_ARANHA, tit="homem_aranha", style=dict(left=150, top=150, width=60,height=200))
