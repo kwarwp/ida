@@ -116,3 +116,10 @@ NameError: name 'deserto' is not defined
           ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 22 2018 16:17:29.836 GMt-0300 (Hora oficial do Brasil) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 46
+  tarzan.elt.style.up=50
+  ^
+IndentationError: unexpected indent
+'''},
