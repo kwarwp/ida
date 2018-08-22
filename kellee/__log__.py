@@ -20,3 +20,10 @@ SyntaxError: Unbalanced bracket (
          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 22 2018 15:35:33.436 GMt-0300 (Hora oficial do Brasil) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 23
+  homem aranha =Elemento(img= HOMEM_ARANHA, tit="Homem Aranha", style=dict(left=150, top=150, width=60,heigth=200))
+         ^
+SyntaxError: invalid syntax
+'''},
