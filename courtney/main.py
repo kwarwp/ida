@@ -44,5 +44,5 @@ def criarcenas():
     ealice = Texto(casa, " vamos conhecer o castelo?")
     alice.vai=ealice.vai
     
-    casa.vai
-    criarcenas()
+    casa.vai()
+criarcenas()
