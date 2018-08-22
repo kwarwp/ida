@@ -333,3 +333,10 @@ NameError: name 'etarzan1' is not defined
     tarzan2.vai=etarzan2.vai
 NameError: name 'etarzan2' is not defined
 '''},
+{'date': 'Wed Aug 22 2018 16:14:25.977 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 41
+  ebarbie1 = Texto (pantano, "Socorro, alguém me ajude"
+                                                                       ^
+SyntaxError: invalid syntax
+'''},
