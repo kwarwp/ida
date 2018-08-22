@@ -120,3 +120,10 @@ IndentationError: unexpected indent
                  ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 22 2018 15:47:03.188 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 3
+  STYLE ["widt"]900
+                 ^
+SyntaxError: invalid syntax
+'''},
