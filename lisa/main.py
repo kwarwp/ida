@@ -31,10 +31,10 @@ def criarcenas():
     
     barbie =Elemento(img= BARBIE, tit="Barbie", style= dict(left=150, top=150, width=200, height=400))
     barbie2 =Elemento(img= BARBIE2, tit="Barbie2", style= dict(left=150, top=150, width=200, height=400))
-    tarzan1 =Elemento(img= TARZAN1, tit="Tarzan1", style= dict(left=100, top=100, width=200, heigh=400))
-    tarzan2 =Elemento(img= TARZAN2, tit="Tarzan2", style= dict(left=100, top=100, width=200, heigh=400))
-    tarzan3 =Elemento(img= TARZAN3, tit="Tarzan3", style= dict(left=100, top=100, width=200, heigh=400))
-    tarzan4 =Elemento(img= TARZAN4, tit="Tarzan4", style= dict(left=100, top=100, width=200, heigh=400))
+    tarzan1 =Elemento(img= TARZAN1, tit="Tarzan1", style= dict(left=100, top=50, width=200, heigh=400))
+    tarzan2 =Elemento(img= TARZAN2, tit="Tarzan2", style= dict(left=100, top=50, width=200, heigh=400))
+    tarzan3 =Elemento(img= TARZAN3, tit="Tarzan3", style= dict(left=100, top=50, width=200, heigh=400))
+    tarzan4 =Elemento(img= TARZAN4, tit="Tarzan4", style= dict(left=100, top=50, width=200, heigh=400))
     aranha =Elemento(img= ARANHA, tit="Aranha", style= dict(left=170, top=100, width=200, height=400))
     
     tarzan1.entra (floresta)
@@ -43,8 +43,10 @@ def criarcenas():
     aranha.vai = earanha.vai
     tarzan2.entra (cha)
     etarzan2 = Texto (cha, "ouça esse som!")
+    tarzan2.vai = etarzan2.vai
     barbie.entra (pantano)
     ebarbie = Texto (pantano, "SOCORRO, estou presa na areia movediça!")
+    barbie.vai = ebarbie.vai
     tarzan3.entra (pantano)
     etarzan3 = Texto (pantano, "eu te ajudo!")
     barbie2.entra (castelo)
