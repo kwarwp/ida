@@ -7,13 +7,21 @@ ARANHA = "https://www.google.com.br/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&c
 GULOSEIMAS = "https://www.google.com.br/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjeoKKPnIHdAhXKIZAKHZpWABQQjRx6BAgBEAU&url=http%3A%2F%2Fwww.supimpagirl.com.br%2Fbeda-alice-disney-ilustras%2F&psig=AOvVaw1GemHq7yPWk2-r_pGdmvxW&ust=1535046534375529"
 CASTELO = "https://www.google.com.br/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjIzaaqnIHdAhVJhpAKHbJsA90QjRx6BAgBEAU&url=http%3A%2F%2Fpt-br.drama-total-fanon.wikia.com%2Fwiki%2FArquivo%3ACastelo.png&psig=AOvVaw0z7qQkd66UNZF8FLTJOsIw&ust=1535046582226979"
 PANTANO = "https://www.google.com.br/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiy4969nIHdAhWLlJAKHc8tC2sQjRx6BAgBEAU&url=http%3A%2F%2Fpt.runescape.wikia.com%2Fwiki%2FFicheiro%3AP%25C3%25A2ntano_de_Mort_Myre.png&psig=AOvVaw0-DNFldM9eBA_Y_X14cyqs&ust=1535046628107721"
-
+FLORESTA = "https://www.google.com.br/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiwysCOo4HdAhVDgJAKHTNDAoQQjRx6BAgBEAU&url=http%3A%2F%2Fpt-br.grandchase.wikia.com%2Fwiki%2FArquivo%3AFloresta_do_desafio_0.png&psig=AOvVaw1OJSdMoJWb5QyCj2F4uzFU&ust=1535048414320630"
 def criarcenas():
     guloseimas =Cena(img=GULOSEIMAS)
     pantano =Cena(img=PANTANO)
     castelo =Cena(img=CASTELO)
-    guloseimas.direita = pantano
+    floresta =Cena(img=FLORESTA)
+    floresta.direita = guloseimas
     
     tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(left=150, top=150, width=60, height=200)
-    Homem_aranha
+    tarzan.entra(floresta)
+    Aranha.entra(guloseimas)
+    falatarzan = texto (guloseimas, "Olha, o Homem Aranha")
+    tarzan.vai=falatarzan.vai
+    falaaranha = texto (guloseimas, "Sim, sou eu mesmo!"
+    aranha.vai=falaaranha.vai
     
+    floresta.vai()
+    criarcenas()
