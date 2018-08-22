@@ -14,3 +14,5 @@ def criarcenas():
     castelo =Cena(img=CASTELO)
     guloseimas.direita = pantano
     
+    tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(left=150, top=150, width=60, height=200)
+    
