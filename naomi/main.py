@@ -31,6 +31,6 @@ def criarcenas():
     
     
     
-    Floresta.vai
-    criarcenas()
+    Floresta.vai()
+criarcenas()
     
