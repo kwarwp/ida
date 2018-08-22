@@ -30,7 +30,6 @@ def criarcenas():
     tarzan.entra (floresta)
     tarzan.vai
     aranha.entra (cha)
-    aranha.entra = earanha.vai
     earanha = Texto (cha, "eu mesmo!")
     tarzan.entra (cha)
     etarzan = Texto (cha, "ouça esse som!")
