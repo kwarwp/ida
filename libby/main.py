@@ -19,5 +19,5 @@ def criarcenas():
     falalata_de_lixo = Texto(cidade, "numa tarde nublada, incidentes misteriosos alarmavam a cidade")
     lata_de_lixo.vai=falalata_de_lixo.vai
     
-    cidade.vai
-    criarcenas()
+    cidade.vai()
+criarcenas()
