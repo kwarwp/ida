@@ -374,3 +374,10 @@ TypeError: 'module' object is not callable
     tarzab.vai=etarzan.vai
 NameError: name 'tarzab' is not defined
 '''},
+{'date': 'Wed Aug 22 2018 16:12:37.484 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 37
+  alice = Elemento(img = ALICE, tit="Alice",style =dict(left=150 , top=150, width=60, height=200))
+  ^
+IndentationError: unexpected indent
+'''},
