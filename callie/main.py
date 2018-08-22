@@ -10,7 +10,6 @@ CIDADE = "https://i.imgur.com/RqRv4YB.jpg"
 def criarcenas():
     floresta = Cena(img=FLORESTA)
     cidade = Cena(img=CIDADE)
-    
     floresta.direita = cidade
     
     homem_aranha = Elemento(img=HOMEM_ARANHA, tit="homemAranha", style=dict(left=150, top=150, width=60, height=200)
