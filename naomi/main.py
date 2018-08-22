@@ -23,16 +23,15 @@ def criarcenas():
     Tarzan.vai=eTarzan.vai
     apartamento.direita = floresta
     floresta =Cena(img=Floresta)
-    Homem_Aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
+    homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
     floresta.direita = esgoto
     esgoto =Cena(img=Esgosto)
-    Homem_Aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
+    homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
     esgoto.direita = cidade
     cidade =Cena(img=Cidade)
     Barbie =Elemento(img= Barbie, tit="Boneca chata", style=dict(left=150, top=150, width=60,height=200))
     
-    
-    
+       
     floresta.vai()
 criarcenas()
     
