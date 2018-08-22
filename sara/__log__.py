@@ -106,3 +106,10 @@ TypeError: 'module' object is not callable
     pantano =Cena(img=PANTANO)
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Wed Aug 22 2018 15:43:37.737 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 23
+  tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict)left=150, top=150, width=60,height=200))
+  ^
+IndentationError: unexpected indent
+'''},
