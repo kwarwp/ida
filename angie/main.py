@@ -12,7 +12,8 @@ CIDADE2 = "https://www.rawstory.com/wp-content/uploads/2014/10/New-York-Central-
 def criarcenas():
     floresta =Cena(img=FLORESTA)
     floresta2 =Cena(img=FLORESTA2)
-    cidade =Cena(img=CIDADE) 
+    cidade =Cena(img=CIDADE)
+    cidade2 =Cena(img=CIDADE2)
     floresta.direita = floresta2
     floresta2.esquerda = floresta 
     floresta2.direita = cidade
