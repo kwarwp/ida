@@ -25,9 +25,9 @@ def criarcenas():
     casa.esquerda = mesa
     
     # cria personagens
-    tarzan=Elemento(img=TARZAN, tit="Tarzan" , style=dict(left=100, top=50, width=120, height=20))
-    tarzan2 = Elemento(img=TARZAN, tit="Tarzan", style=dict(left=300, top=50, width=120, height=20))
-    alice = Elemento(img=ALICE, tit="Alice", style=dict(left=600, top=100, width=160, height=20))
+    tarzan=Elemento(img=TARZAN, tit="Tarzan" , style=dict(left=100, top=200, width=120, height="80px"))
+    tarzan2 = Elemento(img=TARZAN, tit="Tarzan", style=dict(left=300, top=200, width=120, height="80px"))
+    alice = Elemento(img=ALICE, tit="Alice", style=dict(left=600, top=200, width=160, height="80px"))
     
     # mensagens dos personagens
     falatarzan = Texto(floresta, "Que fome !!!")
