@@ -27,6 +27,8 @@ def criarcenas():
     falatarzan = Texto(floresta, "Que fome !!!")
     tarzan.vai=falatarzan.vai
     
+    tarzan.entra (mesa)
+    
     floresta.vai()
    
 criarcenas()
