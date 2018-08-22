@@ -5,3 +5,4 @@ PANTANO = "https://www.google.com.br/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&
 ALICE = "https://3.bp.blogspot.com/-o7Y78sYGkjY/V6O1G7WysSI/AAAAAAAAMO8/IG0Q7cJKKcYA70fLNINSaLG02t9fQT52QCLcB/s1600/ALICE%2B%25283%2529.png"
 TARZAN = "https://vignette.wikia.nocookie.net/vsbattles/images/6/68/Tarzan.png/revision/latest?cb=20170117061234"
 MESTRE YODA = "https://vignette.wikia.nocookie.net/disney/images/9/95/Master_Yoda.png/revision/latest?cb=20161024220430&path-prefix=pt-br"
+AVENIDA AMARAL PEIXOTO = "https://3.bp.blogspot.com/-L6J4CqwyXWY/W2XD_sCVqhI/AAAAAAAA1Ck/dGexwCTuNsA3YCrC8vaQTb9lsY7dHDdugCLcBGAs/s1600/Ciclovia%2BAmaral%2BPeixoto%2B2.png"
