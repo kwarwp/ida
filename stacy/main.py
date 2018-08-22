@@ -2,7 +2,7 @@
 from _spy.vitollino.main import Cena, Elemento,Texto, STYLE
 from _spy.vitollino.main import INVENTARIO as inv
 STYLE["width"] = 900
-STYLE["height"] = 2000
+STYLE["height"] = "500px"
 
 TARZAN = "https://vignette.wikia.nocookie.net/disney/images/6/6a/Tarzan_KH.png/revision/latest?cb=20130130213033"
 ALICE = "https://i.pinimg.com/originals/53/dc/44/53dc445ee31c9bcc63c65420451ddfe3.png"
@@ -25,13 +25,16 @@ def criarcenas():
     casa.esquerda = mesa
     
     # cria personagens
-    tarzan=Elemento(img=TARZAN, tit="Tarzan" , style=dict(left=100, top=50, width=80, height=200))
-    tarzan2 = Elemento(img=TARZAN, tit="Tarzan", style=dict(left=300, top=50, width=80, height=200))
-    alice = Elemento(img=ALICE, tit="Alice", style=dict(left=600, top=200, width=100, height=200))
+    tarzan=Elemento(img=TARZAN, tit="Tarzan" , style=dict(left=100, top=50, width=120, height=20))
+    tarzan2 = Elemento(img=TARZAN, tit="Tarzan", style=dict(left=300, top=50, width=120, height=20))
+    alice = Elemento(img=ALICE, tit="Alice", style=dict(left=600, top=100, width=160, height=20))
     
     # mensagens dos personagens
     falatarzan = Texto(floresta, "Que fome !!!")
     tarzan.vai=falatarzan.vai
+    
+    falaalice=Texto(mesa,"Você aceita um chá? ")
+    alice.vai=falaalice.vai
     
     tarzan.entra(floresta)
     tarzan2.entra(mesa)
