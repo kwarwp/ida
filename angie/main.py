@@ -23,8 +23,8 @@ def criarcenas():
     yoda =Elemento(img= MESTRE_YODA, tit="Mestre Yoda", style=dict(left=150, top=150, width=50, height=150))
     yoda.entra(floresta)
     eyoda = Texto(floresta, "Então Alice, perdida na floresta, com seus pensamentos trevosos, encontra o Mestre Yoda.")
-    
-    cinderela =Elemento(img= CINDERELA, tit="Cinderela", style=dict(left=150, top=150, width=60, height=200))
+    yoda.vai=eyoda.vai
+    #cinderela =Elemento(img= CINDERELA, tit="Cinderela", style=dict(left=150, top=150, width=60, height=200))
     
     
     
