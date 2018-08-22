@@ -28,10 +28,8 @@ PANTANO = "http://2.bp.blogspot.com/-sNejMRi0QUM/VXah1BlInCI/AAAAAAAABKE/-RYaZkS
 CASTELO = "https://http2.mlstatic.com/mega-banner-painel-decoraco-castelo-240-x-150-mts-D_NQ_NP_880090-MLB25838655185_082017-F.jpg"
 
 def porcena():
-
     pantano =Cena(img=PANTANO)
     castelo =Cena(img=CASTELO)
-    cidade =Cena(img=CIDADE)
     
     pantano.direita = castelo
     
