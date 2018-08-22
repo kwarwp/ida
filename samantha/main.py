@@ -29,10 +29,11 @@ def criarcenas():
     
     tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(left=150, top=150, width=60,height=200))
     tarzan.entra(cha)
+    eaçlice = Texto(cha, ".")
+    alice.vai=ealice.vai
     
     ecinderela = Texto(cha, " boa tarde!")
     cinderela.vai=ecinderela.vai
-    
     
     etarzan = Texto(cha, " Ola!")
     tarzan.vai=etarzan.vai
