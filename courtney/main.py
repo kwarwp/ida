@@ -8,10 +8,12 @@ HOMEM_ARANHA = "https://img.elo7.com.br/product/original/11FBB76/peso-de-porta-h
 FLORESTA = "https://img.elo7.com.br/product/zoom/10C700C/painel-floresta-g-frete-gratis-painel-impresso.jpg"
 CASA = "http://1.bp.blogspot.com/-7CEY5DMNSDU/UnLHiLLQO7I/AAAAAAAAAUA/3xrMlvUTXzo/s1600/floresta-381288.jpg"
 CASTELO = "https://png.pngtree.com/element_origin_min_pic/21/03/20/1656efb0f4aa630.jpg"
-MESA_DE_CHA = "https://deborawolf.files.wordpress.com/2012/10/picture-device-independent-bitmap-11.jpg"
+CHA = "https://deborawolf.files.wordpress.com/2012/10/picture-device-independent-bitmap-11.jpg"
 
 def criarcenas():
-    mesa_de_cha =Cena(img=MESA_DE_CHA)
+    cha =Cena(img=CHA)
     floresta =Cena(img=FLORESTA)
     casa =Cena(img=CASA)
     castelo =Cena(img=CASTELO)
+    
+    
