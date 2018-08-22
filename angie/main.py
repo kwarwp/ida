@@ -46,7 +46,7 @@ def criarcenas():
     alice.entra(cidade2)
     ealice = Texto(cidade2, "Enquanto passeava em um belo parque cheio de árvores e pássaros, viu de longe Cinderela, cantando lindas canções, e acabou esquecendo de todos os seus problemas.")
     alice.vai=ealice.vai
-    cinderela =Elemento(img= CINDERELA, tit="Cinderela", style=dict(left=60, top=150, width=500, height=400))
+    cinderela =Elemento(img= CINDERELA, tit="Cinderela", style=dict(left=60, top=150, width=500, height=500))
     cinderela.entra(cidade2)
     
     
