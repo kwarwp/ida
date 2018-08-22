@@ -13,3 +13,10 @@ SyntaxError: EOL while scanning string literal
                   ^
 SyntaxError: Unbalanced bracket (
 '''},
+{'date': 'Wed Aug 22 2018 15:35:07.388 GMt-0300 (Hora oficial do Brasil) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 23
+  homem aranha =Elemento(img= HOMEM ARANHA, tit="Homem Aranha", style=dict(left=150, top=150, width=60,heigth=200))
+         ^
+SyntaxError: invalid syntax
+'''},
