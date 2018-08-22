@@ -10,7 +10,7 @@ CIDADE = "https://www.rawstory.com/wp-content/uploads/2014/10/New-York-Central-P
 def criarcenas():
     floresta =Cena(img=FLORESTA)
     cidade =Cena(img=CIDADE) 
-    floresta.direita = praia 
+    floresta.direita = cidade
     cidade.esquerda = floresta 
     
     alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60, height=200))
