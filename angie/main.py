@@ -7,3 +7,5 @@ CINDERELA = "https://4.bp.blogspot.com/-c_4RlOC4vRk/WD8fPzbqbcI/AAAAAAAACA0/1ian
 FLORESTA = "https://vignette.wikia.nocookie.net/producaocultural/images/9/96/Floresta_Sombria.png/revision/latest?cb=20110605015107&path-prefix=pt-br" 
 CIDADE = "https://www.rawstory.com/wp-content/uploads/2014/10/New-York-Central-Park-autumn-Shutterstock-800x430.png"
 
+def criarcenas():
+    floresta =Cena(img=FLORESTA)
