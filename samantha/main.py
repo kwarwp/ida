@@ -24,7 +24,7 @@ def criarcenas():
     cinderela =Elemento(img= CINDERELA, tit="Cinderela", style=dict(left=150, top=150, width=60,height=200)) 
     cinderela.entra(cha)
     
-     alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60,height=200))
+    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60,height=200))
     alice.entra(floresta)
     
     tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(left=150, top=150, width=60,height=200))
