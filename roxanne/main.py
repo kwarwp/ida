@@ -26,3 +26,13 @@ CIDADE = "https://www.nycgo.com/images/venues/2238/times-square-bus-7th-ave-brad
 PANTANO = "http://2.bp.blogspot.com/-sNejMRi0QUM/VXah1BlInCI/AAAAAAAABKE/-RYaZkSbiII/s1600/la_casa_del_pantano-1024x768.jpg"
 
 CASTELO = "https://http2.mlstatic.com/mega-banner-painel-decoraco-castelo-240-x-150-mts-D_NQ_NP_880090-MLB25838655185_082017-F.jpg"
+
+def porcena():
+
+    pantano = Cena(img=PANTANO)
+    castelo = Cena(img=CASTELO)
+    cidade = Cena(img=CIDADE)
+    
+    pantano.direita = castelo
+    praia.esquerda = deserto 
+    
