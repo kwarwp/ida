@@ -38,7 +38,7 @@ def porcenas():
     alice.vai=ealice.vai
     
     pantano.vai()
-porcena()
+porcenas()
     
     
     
