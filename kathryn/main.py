@@ -13,5 +13,5 @@ def criarcenas():
     praia =Cena(img=PRAIA)
     deserto.direita = praia
     
-    barbie =Elemento(img= BARBIE, tit="Barbie", style=dict(left=150, top=150, width=60,height=200)
+    barbie =Elemento(img= BARBIE, tit="Barbie", style=dict(left=150, top=150, width=60,height=200))
     
