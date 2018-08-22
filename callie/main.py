@@ -18,7 +18,7 @@ def criarcenas():
     cidade.direita = cidade2
     cidade2.esquerda = cidade
     
-    homem_aranha = Elemento(img=HOMEM_ARANHA, tit="homem Aranha", style=dict(left=150, top=150, width=60, height=200))
+    homem_aranha = Elemento(img=HOMEM_ARANHA, tit="homem Aranha", style=dict(left=150, top=150))
     homem_aranha.entra(floresta)
     falahomem_aranha = Texto(floresta, "Nossa! que isso? Estou numa floresta... como vim parar aqui?")
     homem_aranha.vai = falahomem_aranha.vai
