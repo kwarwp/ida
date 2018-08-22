@@ -31,6 +31,7 @@ def criarcenas():
     pantano =Cena(img=PANTANO)
     castelo =Cena(img=CASTELO)
     pantano.direita = castelo
+    castelo.esquerda = pantano
     
     alice = Elemento(img = ALICE, tit="Alice",style =dict(left=150 , top=150, width=60, height=200))
     alice.entra(pantano)
