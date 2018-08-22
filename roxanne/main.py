@@ -10,10 +10,9 @@
 from  _spy.vitolino.main import Cena, Elemento, Texto
 from _syp.vitolino.main import INVENTARIO as inv
 
-HOMEM ARANHA =  "https://vignette.wikia.nocookie.net/marvel/images/2/2e/Homem-aranha.png/revision/latest?cb=20141112195415&path-prefix=pt-br"
+
 
 TARZAN = "https://banner2.kisspng.com/20180501/ite/kisspng-tarzan-jane-porter-film-etsy-drawing-jane-5ae85eb3d5d6f8.1259494515251780358759.jpg"
-
 
 YODA = "https://banner2.kisspng.com/20180202/lzq/kisspng-yoda-darth-maul-star-wars-jedi-star-wars-transparent-background-5a7487326a2b16.7780970115175862264349.jpg"
 
