@@ -13,8 +13,14 @@ def criarcenas():
     floresta = Cena(img=FLORESTA)
     mesa = Cena(img=MESA)
     casa = Cena(img=CASA)
+    
+    # passagem das páginas para o lado direito
     floresta.direita = mesa
     mesa.direita=casa
+    
+    # passagem das páginas o lado esquerdo. Voltando as páginas da história
+    mesa.esquerda = floresta
+    casa.esquerda = mesa
     
     tarzan=Elemento(img=TARZAN, tit="Tarzan" , style=dict(left=100, top=50, width=60, height=200))
     tarzan.entra(floresta)
