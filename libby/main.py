@@ -6,3 +6,7 @@ TARZAN = "https://banner2.kisspng.com/20180319/rpw/kisspng-toy-thumb-fictional-c
 HOMEM ARANHA = "https://banner2.kisspng.com/20180619/fxt/kisspng-spider-man-television-fan-art-rendering-homem-aranha-5b289435b98b88.17202473152938603776.jpg"
 PANTANO = "https://vignette.wikia.nocookie.net/monsterhunterespanol/images/2/2b/MHFU-Pantano.png/revision/latest?cb=20130503184351&path-prefix=es"
 CIDADE = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/CentroRJ.jpg/1200px-CentroRJ.jpg"
+
+def criarcenas():
+    cidade =Cena(img=CIDADE)
+    pantano =Cena(img=PANTANO)
