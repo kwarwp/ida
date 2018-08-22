@@ -16,8 +16,8 @@ def criarcenas():
     casa =Cena(img=CASA)
     castelo =Cena(img=CASTELO)
     cha.direita =floresta
-    floresta.direita =CASA
-    casa.direita =CASTELO
+    floresta.direita =casa
+    casa.direita =castelo
 
     cinderela =Elemento(img= CINDERELA, tit="Cinderela", style=dict(left=150, top=150, width=60,height=200)) 
     cinderela.entra(cha)
