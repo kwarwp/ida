@@ -23,8 +23,8 @@ def criarcenas():
     aranha =Elemento(img= ARANHA, tit="Aranha", style=dict(left=150, top=150, width=60, height=200))
     barbie =Elemento(img= BARBIE, tit="Barbie", style=dict(left=150, top=150, width=60, height=200))
     
-    tarzan.entra(floresta)
-    aranha.entra(guloseimas)
+    tarzan.entra (floresta)
+    aranha.entra (guloseimas)
     falatarzan = texto (guloseimas, "Olha, o Homem Aranha")
     tarzan.vai=falatarzan.vai
     falaaranha = texto (guloseimas, "Sim, sou eu mesmo!")
@@ -32,4 +32,4 @@ def criarcenas():
     
     
     floresta.vai()
-    criarcenas()
+criarcenas()
