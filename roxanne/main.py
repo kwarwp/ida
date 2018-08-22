@@ -23,7 +23,7 @@ ALICE = "https://icon2.kisspng.com/20180327/uue/kisspng-alice-liddell-alice-s-ad
 
 CIDADE = "https://www.nycgo.com/images/venues/2238/times-square-bus-7th-ave-brad-ogbonna__x_large.jpg"
 
-PANTANO = "http://2.bp.blogspot.com/-sNejMRi0QUM/VXah1BlInCI/AAAAAAAABKE/-RYaZkSbiII/s1600/la_casa_del_pantano-1024x768.jpg"
+PANTANO = "https://eucontista.files.wordpress.com/2015/10/pantano-306619.jpg"
 
 CASTELO = "https://http2.mlstatic.com/mega-banner-painel-decoraco-castelo-240-x-150-mts-D_NQ_NP_880090-MLB25838655185_082017-F.jpg"
 
