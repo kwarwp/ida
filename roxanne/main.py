@@ -7,8 +7,8 @@
 #Eles viveram felizes para sempre
 
 
-from  _spy.vitolino.main import Cena, Elemento, Texto
-from _syp.vitolino.main import INVENTARIO as inv
+from  _spy.vitollino.main import Cena, Elemento, Texto
+from _syp.vitollino.main import INVENTARIO as inv
 
 
 HOMEM_ARANHA = "http://3.bp.blogspot.com/-uv54jlZoqfU/T9eUlpul_CI/AAAAAAAAFos/NCmWuK9X9Nw/s1600/Homem-Aranha-png-Queroimagem.com+%284%29.png"
@@ -23,21 +23,21 @@ ALICE = "https://icon2.kisspng.com/20180327/uue/kisspng-alice-liddell-alice-s-ad
 
 CIDADE = "https://www.nycgo.com/images/venues/2238/times-square-bus-7th-ave-brad-ogbonna__x_large.jpg"
 
-TESTE = "https://eucontista.files.wordpress.com/2015/10/pantano-306619.jpg"
+PANTANO = "https://eucontista.files.wordpress.com/2015/10/pantano-306619.jpg"
 
 CASTELO = "https://http2.mlstatic.com/mega-banner-painel-decoraco-castelo-240-x-150-mts-D_NQ_NP_880090-MLB25838655185_082017-F.jpg"
 
 def criarcenas():
-    teste =Cena(img=TESTE)
+    pantano =Cena(img=PANTANO)
     castelo =Cena(img=CASTELO)
-    teste.direita = castelo
+    pantano.direita = castelo
     
     alice = Elemento(img = ALICE, tit="Alice",style =dict(left=150 , top=150, width=60, height=200))
     alice.entra(pantano)
     ealice = Texto(pantano,"help help")
     alice.vai=ealice.vai
     
-    teste.vai()
+    pantano.vai()
 criarcenas()
     
     
