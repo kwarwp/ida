@@ -30,6 +30,9 @@ def criarcenas():
     tarzan.vai=etarzan.vai
     
     alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60,height=200))
+    alice.entra(cha)
+    ealice = Texto(cha, " vamos para casa!")
+    alice.vai=ealice.vai
     
     
     
