@@ -15,5 +15,9 @@ def criarcenas():
     floresta =Cena(img=FLORESTA)
     casa =Cena(img=CASA)
     castelo =Cena(img=CASTELO)
+    cha.direita =floresta
+    floresta.direita =CASA
+    casa.direita =CASTELO
+    
     
     
