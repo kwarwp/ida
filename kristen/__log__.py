@@ -13,3 +13,10 @@ SyntaxError: invalid syntax
                                                                                                         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 22 2018 15:34:29.860 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 23
+  falaaranha = texto (guloseimas, "Sim, sou eu mesmo!"
+                                                            ^
+SyntaxError: invalid syntax
+'''},
