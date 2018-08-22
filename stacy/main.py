@@ -16,3 +16,7 @@ def criarcenas():
     mesa.direita=casa
     
     tarzan=Elemento(img=TARZAN, tit="Tarzan" , style=dict(left=100, top=50, width=60, height=200))
+    tarzan.entra(floresta)
+    etarzan = Texto(floresta, "Que fome !!!)
+    
+    
