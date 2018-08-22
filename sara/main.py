@@ -1,0 +1,7 @@
+# ida.sara.main.py
+from _spy.vitolino.main import Cena, Elemento, Texto
+from _spy.vitolino.main import INVENTARIO as inve
+PANTANO = "https://www.google.com.br/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj7h6CPnIHdAhVQl5AKHQ8_D80QjRx6BAgBEAU&url=http%3A%2F%2Fzephyr.forumeiros.com%2Ft2682-pantano-sombrio&psig=AOvVaw2iqWaFUxaHh4qZnvys89M_&ust=1535046523087923"
+ALICE = "https://3.bp.blogspot.com/-o7Y78sYGkjY/V6O1G7WysSI/AAAAAAAAMO8/IG0Q7cJKKcYA70fLNINSaLG02t9fQT52QCLcB/s1600/ALICE%2B%25283%2529.png"
+TARZAN = "https://vignette.wikia.nocookie.net/vsbattles/images/6/68/Tarzan.png/revision/latest?cb=20170117061234"
+MESTRE YODA = "https://vignette.wikia.nocookie.net/disney/images/9/95/Master_Yoda.png/revision/latest?cb=20161024220430&path-prefix=pt-br"
