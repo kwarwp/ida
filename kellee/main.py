@@ -18,4 +18,4 @@ def criarcenas ():
     mesa.direita = pantano
     pantano.direita = castelo
     
-    tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(left=150, top=150, width=60, height=200)
+    tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(left=150, top=150, width=60,height=200)
