@@ -14,4 +14,6 @@ def criarcenas():
     deserto.direita = praia
     
     barbie =Elemento(img= BARBIE, tit="Barbie", style=dict(left=150, top=150, width=60,height=200))
+    barbie.entra(deserto)
+    
     
