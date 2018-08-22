@@ -19,17 +19,17 @@ def criarcenas():
     homem_aranha.vai=ehomem_aranha.vai
     
     cidade =Cena(img=Cidade)
-    #cidade.entra(cidade)
     
     apartamento =Cena(img=Apartamento)
-    apartamento.entra(apartamento)
     tarzan =Elemento(img= Tarzan, tit="Ex-marido da Jane", style=dict(left=150, top=150, width=60,height=200))
+    tarzan.entra(apartamento)
     etarzan =Texto (Apartamento, "alguem me ajuda a sair daqui!!!!")
     tarzan.vai=etarzan.vai
     
     
     esgoto =Cena(img=Esgoto) 
     homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
+    homem_aranha.entra(esgoto)
     ehomem_aranha = Texto (Cidade, "vou salvar meu amigo tarzan preso em minha casa")
     homem_aranha.vai=ehomem_aranha.vai
     
