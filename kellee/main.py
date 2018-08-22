@@ -17,6 +17,9 @@ def criarcenas ():
     floresta.direita = mesa
     mesa.direita = pantano
     pantano.direita = castelo
+    castelo.esquerda = pantano
+    pantano.esquerda = mesa
+    mesa.esquerda = floresta
     
     tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(left=150, top=150, width=60,height=200))
     tarzan.entra(floresta)
@@ -27,6 +30,12 @@ def criarcenas ():
     barbie.entra(pantano)
     falabarbie = Texto(pantano, "Socorro!Socorro!Estou na areia movediça!!")
     barbie.vai=falabarbie.vai
+    tarzan.entra(castelo)
+    barbie.entra(castelo)
+    falabarbie = Texto(castelo, "Vamos para uma refeição!!")
+    tarzan.vai
+    barbie.vai=falabarbie.vai
+    
     
     
     
