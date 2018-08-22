@@ -10,4 +10,19 @@ BARBIE = "http://www.pngmart.com/files/4/Barbie-Transparent-Background.png"
 PANTANO = "https://gartic.com.br/imgs/mural/ca/catapimbador/pantano.png"
 CASTELO = "https://vignette.wikia.nocookie.net/barbie-movies/images/9/9f/Wpm56_Panel_28.jpg/revision/latest?cb=20140413120357"
 
+def criarcenas():
+    cha =Cena(img=CHA)
+    floresta =Cena(FLORESTA)
+    pantano =Cena(PANTANO)    
+    castelo =Cena(CASTELO)
+    
+    cha.direita = floresta
+    floresta.esquerda = cha
+    floresta.direita = pantano
+    pantano.esquerda = floresta
+    pantano.direita = castelo
+    castelo.esquerda = pantano
+    
+    barbie =Elemento(img= BARBIE, tit="Barbie", style=dict(left=150, top=150, width=60, height=200)
+
 
