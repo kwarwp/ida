@@ -24,14 +24,14 @@ def criarcenas():
     apartamento =Cena(img=Apartamento)
     tarzan =Elemento(img= Tarzan, tit="Ex-marido da Jane", style=dict(left=150, top=150, width=60,height=200))
     tarzan.entra(apartamento)
-    etarzan =Texto (Apartamento, "alguem me ajuda a sair daqui!!!!")
+    etarzan =Texto (apartamento, "alguem me ajuda a sair daqui!!!!")
     tarzan.vai=etarzan.vai
     
     
     esgoto =Cena(img=Esgoto) 
     homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
     homem_aranha.entra(esgoto)
-    ehomem_aranha = Texto(Esgoto, "vou salvar meu amigo tarzan preso em minha casa")
+    ehomem_aranha = Texto(esgoto, "vou salvar meu amigo tarzan preso em minha casa")
     homem_aranha.vai=ehomem_aranha.vai
     
     
@@ -40,7 +40,7 @@ def criarcenas():
     barbie.entra(cidade1)
     homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
     homem_aranha.entra(cidade1)
-    ehomem_aranha = Texto(Cidade1, "Uau, to apaixonado")
+    ehomem_aranha = Texto(cidade1, "Uau, to apaixonado")
     homem_aranha.vai=ehomem_aranha.vai
     
     floresta.direita = cidade
