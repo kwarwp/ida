@@ -1,5 +1,6 @@
 # ida.sara.main.py
 from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
+from _spy.vitollino.main import INVENTARIO as inv
 STYLE["width"]=900
 PANTANO = "https://1.bp.blogspot.com/-jALpqBrfBW4/VvvS6bpUnVI/AAAAAAAAATo/sd2gRUbk3tc-rdp8iPeEXCgz6LSQGjGzQ/s1600/Swamp%2BHouse.jpg"
 ALICE = "https://3.bp.blogspot.com/-o7Y78sYGkjY/V6O1G7WysSI/AAAAAAAAMO8/IG0Q7cJKKcYA70fLNINSaLG02t9fQT52QCLcB/s1600/ALICE%2B%25283%2529.png"
