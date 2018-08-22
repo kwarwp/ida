@@ -12,5 +12,16 @@ def criarcenas():
     avenida =Cena(img=AVENIDA)
     pantano.direita = avenida
     
-    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60,height=200)
+    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60,height=200))
+    alice.entra(pantano)
+    alice = Texto(deserto, " Em uma noite enluarada, Dona ALICE saiu para dar uma volta. Porém, durante o passeio, se perdeu no caminho e não enxergava nada a sua frente além de um pantamo assutador.
+Pensando em como sair daquela enrrascada, a pequena Alice não teve outra opção do que rezar, quando de repente...)
+    alice.vai=etarzan.vai
+    
+    
+    
+    
+    pantano.vai()
+criarcenas()
+    
     
