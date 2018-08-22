@@ -26,7 +26,7 @@ def criarcenas():
     
     # cria personagens
     tarzan=Elemento(img=TARZAN, tit="Tarzan" , style=dict(left=100, top=50, width=80, height=200))
-    tarzan2 = Elemento(img=TARZAN, tit="Tarzan", style=dict(left=300, top=150, width=80, height=200))
+    tarzan2 = Elemento(img=TARZAN, tit="Tarzan", style=dict(left=300, top=100, width=80, height=200))
     alice = Elemento(img=ALICE, tit="Alice", style=dict(left=200, top=50, width=80, height=200))
     
     # mensagens dos personagens
