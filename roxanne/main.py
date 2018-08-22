@@ -28,11 +28,11 @@ PANTANO = "https://eucontista.files.wordpress.com/2015/10/pantano-306619.jpg"
 CASTELO = "https://http2.mlstatic.com/mega-banner-painel-decoraco-castelo-240-x-150-mts-D_NQ_NP_880090-MLB25838655185_082017-F.jpg"
 
 def porcenas():
-    pantano =Cenas(img=PANTANO)
-    castelo =Cenas(img=CASTELO)
+    pantano =Cena(img=PANTANO)
+    castelo =Cena(img=CASTELO)
     pantano.direita = castelo
     
-    alice = Elemento(img = ALICE, lilice="Alice",style =dict(left=150 , top=150, width=60, height=200))
+    alice = Elemento(img = ALICE, tit="Alice",style =dict(left=150 , top=150, width=60, height=200))
     alice.entra(pantano)
     ealice = Texto(pantano,"help help")
     alice.vai=ealice.vai
