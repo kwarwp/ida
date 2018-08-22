@@ -13,24 +13,27 @@ def criarcenas():
     floresta =Cena(img=Floresta)
     homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha" , style=dict(left=150, top=150, width=60,height=200))
     homem_aranha.entra(floresta)
+    
     cidade =Cena(img=Cidade)
     floresta.direita = cidade
     apartamento =Cena(img=Apartamento)
     cidade.direita = apartamento
+    
     tarzan =Elemento(img= Tarzan, tit="Ex-marido da Jane", style=dict(left=150, top=150, width=60,height=200))
     etarzan =Texto (Apartamento, "alguem me ajuda a sair daqui!!!!")
     tarzan.vai=etarzan.vai
-    apartamento.direita = floresta
-    floresta =Cena(img=Floresta)
-    homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
-    floresta.direita = esgoto
-    esgoto =Cena(img=Esgosto)
+    apartamento.direita = esgoto
+    
+    esgoto =Cena(img=Esgoto) 
     homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
     esgoto.direita = cidade
+    
     cidade =Cena(img=Cidade)
     barbie =Elemento(img= Barbie, tit="Boneca chata", style=dict(left=150, top=150, width=60,height=200))
+    homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
+    ehomem_aranha = Texto (Cidade, "to apaixonado")
+    homem_aranha.vai=ehomem_aranha.vai
     
-       
     floresta.vai()
 criarcenas()
     
