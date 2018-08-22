@@ -14,5 +14,16 @@ def criarcenas():
     floresta.direita = cidade
     
     homem_aranha = Elemento(img=HOMEM_ARANHA, tit="homem_aranha", style=dict(left=150, top=150, width=60, height=200)
+    homem_aranha.entra(floresta)
+    falahomem_aranha = Texto(floresta, "Nossa! que isso? Estou numa floresta... como vim parar aqui?")
+    homem_aranha.vai = falahomem_aranha.vai
+    
     tarzan = Elemento(img=TARZAN, tit="tarzan", style=dict(left=150, top=150, width=60, height=200)
-    barbie = Elemento(img=BARBIE, tit="barbie", style=dict(left=150, top=150, width=60, height=200)
+    tarzan.entra(cidade)
+    falatarzan = Texto(cidade, "Poxa o homem-aranha me deixou aqui no apartamento dele ")
+    tarzan.vai = falatarzan.vai
+    
+   #barbie = Elemento(img=BARBIE, tit="barbie", style=dict(left=150, top=150, width=60, height=200)
+   
+   floresta.vai()
+criarcenas()
