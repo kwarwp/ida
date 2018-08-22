@@ -24,4 +24,4 @@ def criarcenas():
     aranha.vai=falaaranha.vai
     
     floresta.vai()
-    criarcenas()
+criarcenas()
