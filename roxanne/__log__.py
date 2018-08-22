@@ -313,3 +313,10 @@ TypeError: 'module' object is not callable
     pantano =Cena(img=PANTANO)
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Wed Aug 22 2018 15:53:06.605 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 40
+  pantano.vai():
+                ^
+SyntaxError: invalid syntax
+'''},
