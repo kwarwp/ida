@@ -20,6 +20,7 @@ def criarcenas ():
     
     tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(left=150, top=150, width=60,height=200))
     tarzan.entra(floresta)
+    tarzan.vai
     homem_aranha =Elemento(img= HOMEM_ARANHA, tit="Homem_Aranha", style=dict(left=150, top=150, width=60,heigth=200))
     homem_aranha.entra(mesa)
     barbie =Elemento(img= BARBIE, tit="Barbie", style=dict(left=150, top=150, width=60,heigth=200))
@@ -29,7 +30,6 @@ def criarcenas ():
     
     
     
-    
-    pantano.vai()
+    floresta.vai()
 criarcenas ()
    
