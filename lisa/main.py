@@ -16,10 +16,10 @@ def criarcenas():
     pantano =Cena(PANTANO)    
     castelo =Cena(CASTELO)
     
-    cha.direita = floresta
-    floresta.esquerda = cha
-    floresta.direita = pantano
-    pantano.esquerda = floresta
+    floresta.direita = cha
+    cha.esquerda = floresta
+    cha.direita = pantano
+    pantano.esquerda = cha
     pantano.direita = castelo
     castelo.esquerda = pantano
     
