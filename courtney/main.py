@@ -36,5 +36,10 @@ def criarcenas():
     
     homem_aranha =Elemento(img= HOMEM_ARANHA, tit="homem_aranha", style=dict(left=150, top=150, width=60,height=200))
     homem_aranha.entra(casa)
-    ealice = Texto(cha, " vamos para casa!")
+    ehomem_aranha = Texto(casa, " me acordaram!")
+    homem_aranha.vai=ehomem_aranha.vai
+    
+    alice =Elemento(img= ALICE, tit="Alice", style=dict(left=150, top=150, width=60,height=200))
+    alice.entra(casa)
+    ealice = Texto(casa, " vamos conhecer o castelo?")
     alice.vai=ealice.vai
