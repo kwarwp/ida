@@ -33,15 +33,15 @@ def criarcenas():
     cidade = Cena(img=CIDADE)
    
     pantano.vai()
-    alice = Elemento(img = ALICE, tit="Alice",style =dict(left=150 , top=150, width=60, height=200))
-    alice.entra(pantano)
-    ealice = Texto(pantano,"help help")
-    alice.vai=ealice.vai
     
-    tarzan = Elemento(img = TARZAN, tit="Tarzan", style =dict(left=50 , top=150, width=60, height=200))
-    tarzan.entra(pantano)
-    etarzan= Texto(pantano,"Não tema! Eu vim ajudar!")
-    tarzab.vai=etarzan.vai
+        alice = Elemento(img = ALICE, tit="Alice",style =dict(left=150 , top=150, width=60, height=200))
+        alice.entra(pantano)
+        ealice = Texto(pantano,"help help")
+        alice.vai=ealice.vai
+
+        tarzan = Elemento(img = TARZAN, tit="Tarzan", style =dict(left=50 , top=150, width=60, height=200))
+        tarzan.entra(pantano)
+        etarzan= Texto(pantano,"Não tema! Eu vim ajudar!")
     
     pantano.direita = castelo
     
