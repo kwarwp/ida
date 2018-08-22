@@ -2,6 +2,7 @@
 from _spy.vitollino.main import Cena, Elemento, Texto
 from _spy.vitollino.main import INVENTARIO as inv
 Cidade = "https://thumbs.dreamstime.com/b/arquitectura-da-cidade-azul-34467258.jpg"
+Cidade1 = "https://thumbs.dreamstime.com/b/arquitectura-da-cidade-azul-34467258.jpg"
 Esgoto = "https://forbes.uol.com.br/wp-content/uploads/2018/04/esgoto-2.jpg"
 Apartamento = "http://s2.glbimg.com/feWuUX0z-7pLnz4wnUSaw_fpglA=/smart/e.glbimg.com/og/ed/f/original/2016/02/01/apartamento-samy-e-ricky-lapa360-01.jpg"
 Floresta = "https://ipc.digital/wp-content/uploads/2016/12/banho-de-floresta-640x360.jpg"
@@ -34,12 +35,12 @@ def criarcenas():
     homem_aranha.vai=ehomem_aranha.vai
     
     
-    cidade =Cena(img=Cidade)
+    cidade1 =Cena(img=Cidade1)
     barbie =Elemento(img= Barbie, tit="Boneca chata", style=dict(left=100,top=100, width=60,height=200))
-    barbie.entra(cidade)
+    barbie.entra(cidade1)
     homem_aranha =Elemento(img= Homem_Aranha, tit="homiaranha", style=dict(left=150, top=150, width=60,height=200))
-    homem_aranha.entra(cidade)
-    ehomem_aranha = Texto(Cidade, "Uau, to apaixonado")
+    homem_aranha.entra(cidade1)
+    ehomem_aranha = Texto(Cidade1, "Uau, to apaixonado")
     homem_aranha.vai=ehomem_aranha.vai
     
     floresta.direita = cidade
