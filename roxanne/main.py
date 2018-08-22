@@ -34,5 +34,6 @@ def porcena():
     cidade = Cena(img=CIDADE)
     
     pantano.direita = castelo
-    praia.esquerda = deserto 
+    
+    barbie = Elemento(img = ALICE, lilice="Alice",style =dict(left=150 , top=150, width=60, height=200)
     
