@@ -13,4 +13,4 @@ def criarcenas():
     pantano =Cena(img=PANTANO)
     castelo =Cena(img=CASTELO)
     guloseimas.direita = pantano
-    pantano.direita = castelo
+    
