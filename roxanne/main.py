@@ -39,7 +39,9 @@ def criarcenas():
     ealice = Texto(pantano,"help help")
     alice.vai=ealice.vai
     
-    alice.espera()
+    alice.espera(1000)
+    
+    tarzan.mostrar()
     
     tarzan = Elemento(img = TARZAN, tit="Tarzan", style =dict(left=50 , top=150, width=60, height=200))
     tarzan.entra(pantano)
