@@ -34,13 +34,13 @@ def criarcenas():
    
     pantano.vai()
     
-    pantano.direita = pantano
-    
     alice = Elemento(img = ALICE, tit="Alice",style =dict(left=150 , top=150, width=60, height=200))
     alice.entra(pantano)
     ealice = Texto(pantano,"help help")
     alice.vai=ealice.vai
 
+    pantano.direita = pantano
+    
     tarzan = Elemento(img = TARZAN, tit="Tarzan", style =dict(left=50 , top=150, width=60, height=200))
     tarzan.entra(pantano)
     etarzan= Texto(pantano,"Não tema! Eu vim ajudar!")
