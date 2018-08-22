@@ -14,6 +14,10 @@ def criarcenas():
     castelo =Cena(img=CASTELO)
     floresta =Cena(img=FLORESTA)
     floresta.direita = guloseimas
+    guloseimas.esquerda=floresta
+    floresta.direita = guloseimas
+    Guloseimas.direita= pantano
+
     
     tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(left=150, top=150, width=60, height=200))
     tarzan.entra(floresta)
@@ -24,4 +28,4 @@ def criarcenas():
     aranha.vai=falaaranha.vai
     
     floresta.vai()
-criarcenas()
+    criarcenas()
