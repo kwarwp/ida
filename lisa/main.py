@@ -51,5 +51,5 @@ def criarcenas():
     falabarbie = Texto(cidade3, "sai fora aracnedeo!")
     barbie.vai=falabarbie.vai
     
-    cidade.vai()
+    floresta.vai()
 criarcenas()
