@@ -24,6 +24,6 @@ def criarcenas():
     castelo.esquerda = pantano
     
     barbie =Elemento(img= BARBIE, tit="Barbie", style=dict(left=150, top=150, width=60, height=200)
-    tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict(
+    tarzan =Elemento(img= TARZAN, tit="Tarzan", style=dict()
 
 
