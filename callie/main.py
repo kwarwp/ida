@@ -6,3 +6,9 @@ TARZAN = "https://i.imgur.com/zgUuDIe.png"
 HOMEM_ARANHA = "https://i.imgur.com/H5gr3qm.png"
 FLORESTA = "https://i.imgur.com/ZjwoYBc.jpg"
 CIDADE = "https://i.imgur.com/RqRv4YB.jpg"
+
+def criarcenas():
+    floresta = Cena(img=FLORESTA)
+    cidade = Cena(img=CIDADE)
+    
+    floresta.direita = cidade
