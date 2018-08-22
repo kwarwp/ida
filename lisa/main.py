@@ -30,27 +30,27 @@ def criarcenas():
     
     homem_aranha = Elemento(img=HOMEM_ARANHA, tit="homem_aranha", style=dict(left=150, top=150))
     homem_aranha.entra(floresta)
-    falahomem_aranha = Texto(floresta, "eu sabia que não devia ter bebido outra taça de vinho")
+    falahomem_aranha = Texto(floresta, "Eu sabia que não devia ter bebido outra taça de vinho")
     homem_aranha.vai=falahomem_aranha.vai
     
     tarzan = Elemento(img=TARZAN, tit="tarzan", style=dict(left=150, top=150))
     tarzan.entra(apartamento)
-    falatarzan = Texto(apartamento, "minha primeira festa na cidade e eu acordo no apartamento de um desconhecido!")
+    falatarzan = Texto(apartamento, "É minha primeira festa na cidade e acordo no apartamento de um desconhecido!")
     tarzan.vai=falatarzan.vai
     
     homem_aranha = Elemento(img=HOMEM_ARANHA, tit="homem_aranha", style=dict(left=150, top=150))
     homem_aranha.entra(cidade)
-    falahomem_aranha = Texto(cidade, "ainda bem que havia um tunel para a cidade")
+    falahomem_aranha = Texto(cidade, "Ainda bem que havia um tunel da floresta para a cidade")
     homem_aranha.vai=falahomem_aranha.vai
     
     homem_aranha = Elemento(img=HOMEM_ARANHA, tit="homem_aranha", style=dict(left=150, top=150))
     homem_aranha.entra(cidade2)
-    falahomem_aranha = Texto(cidade2, "nossa! Que boneca!")
+    falahomem_aranha = Texto(cidade2, "Nossa! Que boneca!")
     homem_aranha.vai=falahomem_aranha.vai
     
     barbie = Elemento(img=BARBIE, tit="barbie", style=dict(left=150, top=150))
     barbie.entra(cidade3)
-    falabarbie = Texto(cidade3, "sai fora aracnedeo!")
+    falabarbie = Texto(cidade3, "Sai fora aracnedeo, eca!")
     barbie.vai=falabarbie.vai
     
     floresta.vai()
