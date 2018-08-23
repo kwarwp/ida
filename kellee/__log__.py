@@ -123,3 +123,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Aug 22 2018 22:16:08.977 GMt-0300 (Hora oficial do Brasil) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 43
+  def pulatarzan (evento)
+                          ^
+SyntaxError: invalid syntax
+'''},
