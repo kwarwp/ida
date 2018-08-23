@@ -1,5 +1,5 @@
 # ida.kellee.main.py
-from _spy.vitollino.main import Cena, Elemento, Texto
+from _spy.vitollino.main import Cena, Elemento, Texto, STYLE
 from _spy.vitolilino.main import INVENTARIO as inv
 TARZAN1 = "https://vignette.wikia.nocookie.net/vsbattles/images/6/68/Tarzan.png/revision/latest?cb=20170117061234"
 HOMEM_ARANHA = "https://http2.mlstatic.com/adesivo-homem-aranha-recortado-cartela-1x1-D_NQ_NP_14475-MLB2822142047_062012-F.jpg"
@@ -10,6 +10,8 @@ PANTANO = "http://pluspng.com/img-png/swamp-png-hd-full-resolution-pluspng-com-p
 MESA = "https://media-cdn.tripadvisor.com/media/photo-s/05/db/4c/20/hotel-fazenda-lagoa-azul.jpg"
 TARZAN2 = "https://vignette.wikia.nocookie.net/vsbattles/images/6/68/Tarzan.png/revision/latest?cb=20170117061234"
 BARBIE2 = "https://smedia.webcollage.net/rwvfp/wc/cp/22570011_legacycode/module/mattel/_cp/products/1447797951020/tab-14a8eb9f-1410-479a-adfc-e651c9f9cd95/e2a04254-4959-4127-af92-2b5424bb8646.png.w960.png"
+STYLE["width"] = 700
+STYLE["height"] = "650px"
 
 def criarcenas ():
     floresta =Cena(img=FLORESTA)
@@ -23,7 +25,7 @@ def criarcenas ():
     pantano.esquerda = mesa
     mesa.esquerda = floresta
     
-    tarzan =Elemento(img= TARZAN1, tit="Tarzan", style=dict(left=150, top=150, width=60,height=200))
+    tarzan =Elemento(img= TARZAN1, tit="Tarzan", style=dict(left=150, top=150))
     tarzan.entra(floresta)
     tarzan.vai
     homem_aranha =Elemento(img= HOMEM_ARANHA, tit="Homem_Aranha", style=dict(left=150, top=150, width=60,heigth=200))
