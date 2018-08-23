@@ -40,6 +40,9 @@ def criarcenas ():
     falabarbie = Texto(castelo, "Vamos para uma refeição!!")
     barbie.vai=falabarbie.vai
     
+    def andatarzan (evento):
+        tarzan.elt.style.left=50
+        
     
     
     
