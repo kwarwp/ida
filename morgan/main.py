@@ -5,8 +5,6 @@ IMAGEM = "https://i.imgur.com/PvPDt89.jpg"
 cenaImagem = Cena(IMAGEM)
 cenaImagem.vai()
 
-mensagem = Texto(cenaImagem, txt = 'Cidade Maravilhosa')
-mensagem.vai()
 
 
     
